@@ -7,3 +7,5 @@ http://www.news18.com/news/world/russia-used-facebook-to-try-to-spy-on-macron-ca
 http://www.thedailybeast.com/microsoft-pushes-to-take-over-russian-spies-network
 
 http://www.zdnet.com/article/hackers-are-now-using-the-exploit-behind-wannacry-to-snoop-on-hotel-wi-fi/
+
+https://www.wired.com/story/fancy-bear-hotel-hack/?mbid=nl_81117_p1&CNDID=50740756
