@@ -9,3 +9,9 @@ http://www.thedailybeast.com/microsoft-pushes-to-take-over-russian-spies-network
 http://www.zdnet.com/article/hackers-are-now-using-the-exploit-behind-wannacry-to-snoop-on-hotel-wi-fi/
 
 https://www.wired.com/story/fancy-bear-hotel-hack/?mbid=nl_81117_p1&CNDID=50740756
+
+http://www.ciol.com/russian-hackers-targeting-indian-hospitality-industry-for-user-data/
+
+https://arstechnica.com/gadgets/2017/08/ukraine-malware-author-turns-witness-in-russian-dnc-hacking-investigation/
+
+https://www.nytimes.com/2017/08/16/world/europe/russia-ukraine-malware-hacking-witness.html?smprod=nytcore-ipad&smid=nytcore-ipad-share
