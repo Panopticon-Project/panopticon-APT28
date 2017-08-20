@@ -17,3 +17,5 @@ https://arstechnica.com/gadgets/2017/08/ukraine-malware-author-turns-witness-in-
 https://www.nytimes.com/2017/08/16/world/europe/russia-ukraine-malware-hacking-witness.html?smprod=nytcore-ipad&smid=nytcore-ipad-share
 
 http://www.startribune.com/ukraine-malware-expert-may-blow-whistle-on-russian-hacking/440791753/
+
+https://nakedsecurity.sophos.com/2017/08/15/fancy-bear-bites-hotel-networks-as-eternalblue-mystery-deepens/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+nakedsecurity+%28Naked+Security+-+Sophos%29
