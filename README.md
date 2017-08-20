@@ -19,3 +19,5 @@ https://www.nytimes.com/2017/08/16/world/europe/russia-ukraine-malware-hacking-w
 http://www.startribune.com/ukraine-malware-expert-may-blow-whistle-on-russian-hacking/440791753/
 
 https://nakedsecurity.sophos.com/2017/08/15/fancy-bear-bites-hotel-networks-as-eternalblue-mystery-deepens/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+nakedsecurity+%28Naked+Security+-+Sophos%29
+
+https://www.scmagazine.com/ukrainian-malware-author-is-key-witness-against-russia-in-dnc-hack-investigation/article/682137/
