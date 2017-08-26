@@ -21,3 +21,5 @@ http://www.startribune.com/ukraine-malware-expert-may-blow-whistle-on-russian-ha
 https://nakedsecurity.sophos.com/2017/08/15/fancy-bear-bites-hotel-networks-as-eternalblue-mystery-deepens/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+nakedsecurity+%28Naked+Security+-+Sophos%29
 
 https://www.scmagazine.com/ukrainian-malware-author-is-key-witness-against-russia-in-dnc-hack-investigation/article/682137/
+
+http://www.zdnet.com/article/us-election-hack-microsoft-wins-latest-round-in-court-against-fancy-bear-phishers/#ftag=RSSbaffb68
