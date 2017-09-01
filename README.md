@@ -25,3 +25,5 @@ https://www.scmagazine.com/ukrainian-malware-author-is-key-witness-against-russi
 http://www.zdnet.com/article/us-election-hack-microsoft-wins-latest-round-in-court-against-fancy-bear-phishers/#ftag=RSSbaffb68
 
 http://www.esecurityplanet.com/network-security/travelers-beware-russian-apt28-hackers-hit-hotels-in-europe-middle-east.html
+
+https://www.tripwire.com/state-of-security/featured/german-parliament-malware-mystery/#new_tab
