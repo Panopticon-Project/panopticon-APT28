@@ -27,3 +27,5 @@ http://www.zdnet.com/article/us-election-hack-microsoft-wins-latest-round-in-cou
 http://www.esecurityplanet.com/network-security/travelers-beware-russian-apt28-hackers-hit-hotels-in-europe-middle-east.html
 
 https://www.tripwire.com/state-of-security/featured/german-parliament-malware-mystery/#new_tab
+
+https://www.salon.com/2017/09/24/russian-hackers-exploited-a-google-flaw-and-google-wont-fix-it/
