@@ -29,3 +29,5 @@ http://www.esecurityplanet.com/network-security/travelers-beware-russian-apt28-h
 https://www.tripwire.com/state-of-security/featured/german-parliament-malware-mystery/#new_tab
 
 https://www.salon.com/2017/09/24/russian-hackers-exploited-a-google-flaw-and-google-wont-fix-it/
+
+http://blog.talosintelligence.com/2017/10/cyber-conflict-decoy-document.html
