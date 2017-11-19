@@ -41,3 +41,5 @@ http://www.informationsecuritybuzz.com/expert-comments/fancy-bear-hackers-race-e
 https://www.tripwire.com/state-of-security/security-data-protection/microsoft-advisory-office-dde-malware/
 
 https://www.wired.com/story/russia-fancy-bear-hackers-microsoft-office-flaw-and-nyc-terrorism-fears/?mbid=nl_110817_daily_list1_p3
+
+https://www.bleepingcomputer.com/news/security/russian-cyberspies-carry-out-the-silliest-cyber-espionage-campaign-of-the-year/
