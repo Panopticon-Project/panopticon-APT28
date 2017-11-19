@@ -35,3 +35,5 @@ http://blog.talosintelligence.com/2017/10/cyber-conflict-decoy-document.html
 http://www.securityweek.com/russian-fancy-bear-hackers-abuse-blogspot-phishing
 
 http://www.securityweek.com/russia-linked-spies-deliver-malware-dde-attack
+
+https://www.tripwire.com/state-of-security/security-data-protection/microsoft-advisory-office-dde-malware/
