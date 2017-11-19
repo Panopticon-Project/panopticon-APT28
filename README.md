@@ -36,6 +36,7 @@ http://www.securityweek.com/russian-fancy-bear-hackers-abuse-blogspot-phishing
 
 http://www.securityweek.com/russia-linked-spies-deliver-malware-dde-attack
 
+https://threatpost.com/latest-sofacy-campaign-targeting-security-researchers/128576/
 http://www.informationsecuritybuzz.com/expert-comments/fancy-bear-hackers-race-exploit-flash-bug-us-europe/
 https://www.tripwire.com/state-of-security/security-data-protection/microsoft-advisory-office-dde-malware/
 
