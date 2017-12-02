@@ -46,3 +46,11 @@ https://www.wired.com/story/russia-fancy-bear-hackers-microsoft-office-flaw-and-
 https://www.bleepingcomputer.com/news/security/russian-cyberspies-carry-out-the-silliest-cyber-espionage-campaign-of-the-year/
 
 http://www.bbc.com/news/technology-42056555
+
+https://threatpost.com/latest-sofacy-campaign-targeting-security-researchers/128576/
+
+https://fancybear.net/ - their site...
+
+https://www.facebook.com/FancyBearsHackTeam1/ - appears to be taken down
+
+https://twitter.com/FancyBears
