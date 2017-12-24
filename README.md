@@ -54,3 +54,5 @@ https://fancybear.net/ - their site...
 https://www.facebook.com/FancyBearsHackTeam1/ - appears to be taken down
 
 https://twitter.com/FancyBears
+
+https://www.darkreading.com/attacks-breaches/russias-fancy-bear-apt-group-gets-more-dangerous/d/d-id/1330702
