@@ -1,5 +1,65 @@
 # panopticon-fancybear
 
+## Attack Pattern
+A type of Tactics, Techniques, and Procedures (TTP) that describes ways threat actors attempt to compromise targets.
+
+## Campaign 
+A grouping of adversarial behaviors that describes a set of malicious activities or attacks that occur over a period of time against a specific set of targets.
+
+## Course of Action 
+An action taken to either prevent an attack or respond to an attack.
+
+## Identity
+Individuals, organizations, or groups, as well as classes of individuals, organizations, or groups.
+
+## Indicator
+Contains a pattern that can be used to detect suspicious or malicious cyber activity.
+
+## Intrusion Set
+A grouped set of adversarial behaviors and resources with common properties believed to be orchestrated by a single threat actor.
+
+## Malware
+A type of TTP, also known as malicious code and malicious software, used to compromise the confidentiality, integrity, or availability of a victim’s data or system.
+
+## Observed Data
+Conveys information observed on a system or network (e.g., an IP address).
+
+## Report 
+Collections of threat intelligence focused on one or more topics, such as a description of a threat actor, malware, or attack technique, including contextual details.
+
+## Threat Actor 
+Individuals, groups, or organizations believed to be operating with malicious intent.
+
+## Tool
+Legitimate software that can be used by threat actors to perform attacks.
+
+## Vulnerability
+A mistake in software that can be directly used by a hacker to gain access to a system or network.
+
+## Raw intelligence
+AKA APT28, Pawn Storm, Sofacy, Tsar Team, Strontium and Sednit http://www.securityweek.com/tech-firms-target-domains-used-russia-linked-threat-group
+
+Malware XTunnel http://www.securityweek.com/xtunnel-malware-specifically-built-dnc-hack-report
+XAgent - Bitdefender and Palo Alto Networks have also identified a macOS version of XAgent, which they believe is downloaded to targeted systems by the Komplex downloader. Both security firms determined, based on binary strings, that Komplex and XAgent were likely created by the same developer. http://www.securityweek.com/russian-cyberspies-use-new-mac-malware-steal-data
+
+data
+One of the domains, the security company reveals, is unisecproper[.]org, which was registered using the email address le0nard0@mail[.]com and is hosted on a dedicated server at the IP 92.114.92.134. The certificate used by this domain has been already associated (PDF) with Fancy Bear in operations targeting the DNC and German Parliament, which clearly indicates that the domain is associated with the group. http://www.securityweek.com/tech-firms-target-domains-used-russia-linked-threat-group
+
+In context
+unisecproper[.]org registered with le0nard0@mail[.]com hosted on dedicated server 92.114.92.134 http://www.securityweek.com/tech-firms-target-domains-used-russia-linked-threat-group
+
+domains
+unisecproper[.]org http://www.securityweek.com/tech-firms-target-domains-used-russia-linked-threat-group
+
+emails
+le0nard0@mail[.]com http://www.securityweek.com/tech-firms-target-domains-used-russia-linked-threat-group
+
+IPs
+92.114.92.134 http://www.securityweek.com/tech-firms-target-domains-used-russia-linked-threat-group
+
+follow up
+ThreatConnect says their team was able to identify “dozens of recently registered domains and IPs that have varying levels of association to the Russian APT.” http://www.securityweek.com/tech-firms-target-domains-used-russia-linked-threat-group
+## Links
 http://www.securityweek.com/tech-firms-target-domains-used-russia-linked-threat-group
 
 http://www.news18.com/news/world/russia-used-facebook-to-try-to-spy-on-macron-campaign-says-sources-1474663.html
@@ -56,3 +116,13 @@ https://www.facebook.com/FancyBearsHackTeam1/ - appears to be taken down
 https://twitter.com/FancyBears
 
 https://www.darkreading.com/attacks-breaches/russias-fancy-bear-apt-group-gets-more-dangerous/d/d-id/1330702
+
+http://www.securityweek.com/dhs-uses-cyber-kill-chain-analyze-russia-linked-election-hacks
+
+http://www.securityweek.com/xtunnel-malware-specifically-built-dnc-hack-report
+
+http://www.securityweek.com/russian-cyberspies-use-new-mac-malware-steal-data
+
+https://www.threatconnect.com/blog/finding-nemohost-fancy-bear-infrastructure/
+
+https://www.sans.org/summit-archives/file/summit-archive-1492179725.pdf
