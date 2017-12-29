@@ -57,6 +57,9 @@ le0nard0@mail[.]com http://www.securityweek.com/tech-firms-target-domains-used-r
 IPs
 92.114.92.134 http://www.securityweek.com/tech-firms-target-domains-used-russia-linked-threat-group
 
+name servers
+nemohosts[.]com, bacloud[.]com, and laisvas[.]lt http://www.securityweek.com/tech-firms-target-domains-used-russia-linked-threat-group
+
 follow up
 ThreatConnect says their team was able to identify “dozens of recently registered domains and IPs that have varying levels of association to the Russian APT.” http://www.securityweek.com/tech-firms-target-domains-used-russia-linked-threat-group
 ## Links
@@ -132,3 +135,5 @@ https://netzpolitik.org/2015/digital-attack-on-german-parliament-investigative-r
 https://www.crowdstrike.com/blog/bears-midst-intrusion-democratic-national-committee/
 
 https://www.welivesecurity.com/2016/10/25/lifting-lid-sednit-closer-look-software-uses/
+
+https://www.noticeofpleadings.com/strontium/ microsoft's suit
