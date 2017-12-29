@@ -126,3 +126,9 @@ http://www.securityweek.com/russian-cyberspies-use-new-mac-malware-steal-data
 https://www.threatconnect.com/blog/finding-nemohost-fancy-bear-infrastructure/
 
 https://www.sans.org/summit-archives/file/summit-archive-1492179725.pdf
+
+https://netzpolitik.org/2015/digital-attack-on-german-parliament-investigative-report-on-the-hack-of-the-left-party-infrastructure-in-bundestag/
+
+https://www.crowdstrike.com/blog/bears-midst-intrusion-democratic-national-committee/
+
+https://www.welivesecurity.com/2016/10/25/lifting-lid-sednit-closer-look-software-uses/
