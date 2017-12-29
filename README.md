@@ -43,6 +43,7 @@ Malware XTunnel http://www.securityweek.com/xtunnel-malware-specifically-built-d
 XAgent - Bitdefender and Palo Alto Networks have also identified a macOS version of XAgent, which they believe is downloaded to targeted systems by the Komplex downloader. Both security firms determined, based on binary strings, that Komplex and XAgent were likely created by the same developer. http://www.securityweek.com/russian-cyberspies-use-new-mac-malware-steal-data
 
 data
+July 25, 2017
 One of the domains, the security company reveals, is unisecproper[.]org, which was registered using the email address le0nard0@mail[.]com and is hosted on a dedicated server at the IP 92.114.92.134. The certificate used by this domain has been already associated (PDF) with Fancy Bear in operations targeting the DNC and German Parliament, which clearly indicates that the domain is associated with the group. http://www.securityweek.com/tech-firms-target-domains-used-russia-linked-threat-group
 
 In context
@@ -62,8 +63,8 @@ nemohosts[.]com, bacloud[.]com, and laisvas[.]lt http://www.securityweek.com/tec
 
 follow up
 ThreatConnect says their team was able to identify “dozens of recently registered domains and IPs that have varying levels of association to the Russian APT.” http://www.securityweek.com/tech-firms-target-domains-used-russia-linked-threat-group
+
 ## Links
-http://www.securityweek.com/tech-firms-target-domains-used-russia-linked-threat-group
 
 http://www.news18.com/news/world/russia-used-facebook-to-try-to-spy-on-macron-campaign-says-sources-1474663.html
 
