@@ -1,7 +1,10 @@
 # Search on unisecproper[.]org
 
 ## Summary
-unisecproper[.]org/92.114.92.134 is a known domain connected to Fancy Bear for the purpose of distributing malware. [1](https://threatconnect.com/blog/finding-nemohost-fancy-bear-infrastructure/), 2, 3
+- unisecproper[.]org/92.114.92.134 is a known domain connected to Fancy Bear. 
+  - Domain used SSL certificate f27c4270b9b9291f465ba5962c36ce38f438377acff300b5c82b3b145f0c9e94 connected to Fancy Bear [1](https://threatconnect.com/blog/finding-nemohost-fancy-bear-infrastructure/), [2](https://www.sans.org/summit-archives/file/summit-archive-1492179725.pdf)
+  - Through Maltego transform found it was listed by Fortnet as a known malware domain [1](https://github.com/Panopticon-Project/panopticon-FancyBear/blob/master/01Jan2018/graph%20of%20search%20unisecproper.mtgl)
+- unisecproper[.]org points to name servers for obox-dns.org (below)
 
 ## Censys
 
