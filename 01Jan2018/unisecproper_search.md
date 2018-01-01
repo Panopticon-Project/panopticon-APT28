@@ -1,14 +1,17 @@
-# Search on unisecproper.org
+# Search on unisecproper[.]org
+
+## Summary
+unisecproper[.]org/92[.]114[.]92[.]134 
 
 ## Censys
 
-92.114.92.134
+92[.]114[.]92[.]134
 
 We haven't found any publicly accessible services on this host or the host is on our blacklist.
 
 ## Google
 
-https://www.threatcrowd.org/domain.php?domain=UNISECPROPER.ORG
+https://www.threatcrowd.org/domain.php?domain=unisecproper[.]org
 
 whois
 
@@ -42,11 +45,11 @@ DNS resolution
 
 Date IP Address
 
-2017-06-19 208.91.197.91
+2017-06-19 208[.]91[.]197[.]91
 
-2017-12-30 92.114.92.134
+2017-12-30 92[.]114[.]92[.]134
 
-https://bgp.he.net/dns/unisecproper.org
+https://bgp.he.net/dns/unisecproper[.]org
 
 DNS info
 
@@ -153,7 +156,7 @@ IP addresses of the nameservers
 
 ## Status lite
 
-http://statuslite.com/domain/unisecproper.org
+http://statuslite.com/domain/unisecproper[.]org
 
 Unisecproper Status Report
 Apache2 Ubuntu Default Page: It works
@@ -162,7 +165,7 @@ Website is Offline when last checked on 23 December 2017
 
 This report has been viewed 1 times since it was first created on 16 March 2017
 
-Unisecproper.org is a 10 months old domain, situated in Italy. The domain is linked to the IP address 92.114.92.134.
+unisecproper[.]org is a 10 months old domain, situated in Italy. The domain is linked to the IP address 92[.]114[.]92[.]134.
 
 It was registered by Leonardo , who can be reached at . The site is owned by Prisco. Registration details show that it was registered on 21 Feb 2017 through pdr ltd. d/b/a publicdomainregistry.com.
 
@@ -174,17 +177,17 @@ Site has links to 4 other websites on its front page.
 
 ## The Harvester
 
-pixel-1514618791797982-web-@unisecproper.org
+pixel-1514618791797982-web-@unisecproper[.]org
 
-pixel-1514618793470295-web-@unisecproper.org
+pixel-1514618793470295-web-@unisecproper[.]org
 
 ## Nslookup 
 
 Non-authoritative answer:
 
-Name: unisecproper.org
+Name: unisecproper[.]org
 
-Address: 92.114.92.134
+Address: 92[.]114[.]92[.]134
 
 * stvl113289.mercury.obox-dns.com.         7141     IN    A        162.251.82.122
 * stvl113289.mercury.obox-dns.com.         241      IN    A        162.251.82.251
