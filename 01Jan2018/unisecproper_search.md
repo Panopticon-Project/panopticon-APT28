@@ -10,7 +10,7 @@
 - Registrant for obox-dns[.]com is Directi Internet Solutions Pvt Ltd (below)
 - DNS for obox-dns[.]com connected to Reseller Club (below)
 - DNS for Reseller Club connected to Directi Internet Solutions Pvt Ltd (below)
-- obox-dns[.]com appears to be owned by Reseller Club and/or Directi Internet Solutions Pvt Ltd and has been used by Fancy Bear to host their infrastructure in the recent past and is potentially still being used. onbox-dns[.].com worthy of further investigation
+- obox-dns[.]com appears to be owned by Reseller Club and/or Directi Internet Solutions Pvt Ltd, has been used by Fancy Bear to host their infrastructure in the recent past and is potentially still being used. obox-dns[.]com worthy of further investigation
 
 ## Censys
 
