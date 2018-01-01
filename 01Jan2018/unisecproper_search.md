@@ -5,6 +5,12 @@
   - Domain used SSL certificate f27c4270b9b9291f465ba5962c36ce38f438377acff300b5c82b3b145f0c9e94 connected to Fancy Bear [1](https://threatconnect.com/blog/finding-nemohost-fancy-bear-infrastructure/), [2](https://www.sans.org/summit-archives/file/summit-archive-1492179725.pdf)
   - Through Maltego transform found it was listed by Fortnet as a known malware domain [1](https://github.com/Panopticon-Project/panopticon-FancyBear/blob/master/01Jan2018/graph%20of%20search%20unisecproper.mtgl)
 - unisecproper[.]org points to name servers for obox-dns.org (below)
+- obox-dns.org has been associated with Fancy Bear previously [1](https://www.threatconnect.com/blog/track-to-the-future/)
+- No publicly facing information located for obox-dns[.]com as a business name from immediate searches
+- Registrant for obox-dns[.]com is Directi Internet Solutions Pvt Ltd (below)
+- DNS for obox-dns[.]com connected to Reseller Club (below)
+- DNS for Reseller Club connected to Directi Internet Solutions Pvt Ltd (below)
+- obox-dns[.]com appears to be owned by Reseller Club and/or Directi Internet Solutions Pvt Ltd and has been used by Fancy Bear to host their infrastructure in the recent past and is potentially still being used. onbox-dns[.].com worthy of further investigation
 
 ## Censys
 
