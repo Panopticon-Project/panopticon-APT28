@@ -48,6 +48,17 @@ AKA APT28, Pawn Storm, Sofacy, Tsar Team, Strontium and Sednit http://www.securi
 Malware XTunnel http://www.securityweek.com/xtunnel-malware-specifically-built-dnc-hack-report
 XAgent - Bitdefender and Palo Alto Networks have also identified a macOS version of XAgent, which they believe is downloaded to targeted systems by the Komplex downloader. Both security firms determined, based on binary strings, that Komplex and XAgent were likely created by the same developer. http://www.securityweek.com/russian-cyberspies-use-new-mac-malware-steal-data
 
+http://www.news18.com/news/world/russia-used-facebook-to-try-to-spy-on-macron-campaign-says-sources-1474663.html
+Russia Used Facebook to Try to Spy on Macron Campaign, Say Sources
+About two dozen Facebook accounts were created to conduct surveillance on Macron campaign officials and others close to the centrist former financier as he sought to defeat far-right nationalist Marine Le Pen and other opponents in the two-round election, the sources said
+Facebook confirmed to Reuters that it had detected spying accounts in France and deactivated them. It credited a combination of improved automated detection and stepped-up human efforts to find sophisticated attacks.
+Company officials briefed congressional committee members and staff, among others, about their findings. People involved in the conversations also said the number of Facebook accounts suspended in France for promoting propaganda or spam - much of it related to the election - had climbed to 70,000, a big jump from the 30,000 account closures the company disclosed in April.
+Facebook did not dispute the figure.
+Russian intelligence agents attempted to spy on President Emmanuel Macron's election campaign earlier this year by creating phony Facebook personas, according to a US congressman and two other people briefed on the effort.
+The spying campaign included Russian agents posing as friends of friends of Macron associates and trying to glean personal information from them, according to the US congressman and two others briefed on the matter.
+Facebook employees noticed the efforts during the first round of the presidential election and traced them to tools used in the past by Russia’s GRU military intelligence unit, said the people, who spoke on condition they not be named because they were discussing sensitive government and private intelligence.
+Facebook told American officials that it did not believe the spies burrowed deep enough to get the targets to download malicious software or give away their login information, 
+
 data
 July 25, 2017
 One of the domains, the security company reveals, is unisecproper[.]org, which was registered using the email address le0nard0@mail[.]com and is hosted on a dedicated server at the IP 92.114.92.134. The certificate used by this domain has been already associated (PDF) with Fancy Bear in operations targeting the DNC and German Parliament, which clearly indicates that the domain is associated with the group. http://www.securityweek.com/tech-firms-target-domains-used-russia-linked-threat-group
@@ -72,10 +83,6 @@ follow up
 ThreatConnect says their team was able to identify “dozens of recently registered domains and IPs that have varying levels of association to the Russian APT.” http://www.securityweek.com/tech-firms-target-domains-used-russia-linked-threat-group
 
 ## Links
-
-http://www.news18.com/news/world/russia-used-facebook-to-try-to-spy-on-macron-campaign-says-sources-1474663.html
-
-http://www.thedailybeast.com/microsoft-pushes-to-take-over-russian-spies-network
 
 http://www.zdnet.com/article/hackers-are-now-using-the-exploit-behind-wannacry-to-snoop-on-hotel-wi-fi/
 
@@ -145,3 +152,5 @@ https://www.crowdstrike.com/blog/bears-midst-intrusion-democratic-national-commi
 https://www.welivesecurity.com/2016/10/25/lifting-lid-sednit-closer-look-software-uses/
 
 https://www.noticeofpleadings.com/strontium/ microsoft's suit
+
+https://www.fireeye.com/blog/threat-research/2017/08/apt28-targets-hospitality-sector.html
