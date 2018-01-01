@@ -4,7 +4,7 @@
 
 ## Fancy Bear
 
-![alt tag](https://fancybear.net/image/bear_PNG12011.png)
+![Fancy Bear](https://fancybear.net/image/bear_PNG12011.png)
 
 ## Attack Pattern
 A type of Tactics, Techniques, and Procedures (TTP) that describes ways threat actors attempt to compromise targets.
