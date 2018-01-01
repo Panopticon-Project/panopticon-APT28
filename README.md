@@ -61,6 +61,14 @@ Facebook told American officials that it did not believe the spies burrowed deep
 
 http://www.zdnet.com/article/hackers-are-now-using-the-exploit-behind-wannacry-to-snoop-on-hotel-wi-fi/
 Researchers at FireEye have attributed a campaign to remotely steal credentials from guests using Wi-Fi networks at hotels in Europe to APT28 -- also known as Fancy Bear
+"This is the first time we have seen APT28 incorporate this exploit into their intrusions, and as far as we believe, the variant used was based on the public version," Cristiana Brafman Kittner, senior analyst at FireEye, told ZDNet.
+The attack process begins with a spear-phishing campaign, which targets multiple companies in the hospitality industry with hotels in at least seven European countries and one Middle Eastern country, which are sent emails designed to compromise networks.
+Messages contain a malicious document "Hotel_Reservation_From.doc" containing a macro which if successfully executed, decodes and deploys GameFish -- which researchers describe as APT28's signature malware.
+Once GameFish is installed on the network, it uses EternalBlue to worm its way through the network and find computers responsible for controlling both guest and internal Wi-Fi networks. Once in control of these machines, the malware deploys an open source Responder tool, allowing it to steal any credentials sent over the wireless network.
+While the attack is carried out against the network as whole, FireEye suggests that "hotel guests of interest could be directly targeted as well" 
+Researchers note that in one incident, a victim was compromised after connecting to a hotel network, but that the attackers didn't immediately take action -- they waited 12 hours before remotely accessing the systems. However, the login originated from the same subnet indicating that the attacker machine was physically close to the victim and on the same Wi-Fi network. - So they act abroad?
+The technique also exploits single factor user authentication -- using two factor authentication makes it harder for the hackers to break into targeted accounts.
+However, FireEye says the two campaigns aren't linked and that DarkHotel -- also known as Fallout Team -- looks to be the work of a "Korean peninsula-nexus cyber espionage actor" and not APT28.
 
 data
 July 25, 2017
@@ -86,8 +94,6 @@ follow up
 ThreatConnect says their team was able to identify “dozens of recently registered domains and IPs that have varying levels of association to the Russian APT.” http://www.securityweek.com/tech-firms-target-domains-used-russia-linked-threat-group
 
 ## Links
-
-http://www.zdnet.com/article/hackers-are-now-using-the-exploit-behind-wannacry-to-snoop-on-hotel-wi-fi/
 
 https://www.wired.com/story/fancy-bear-hotel-hack/?mbid=nl_81117_p1&CNDID=50740756
 
