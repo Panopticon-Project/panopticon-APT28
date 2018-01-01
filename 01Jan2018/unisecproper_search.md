@@ -1,11 +1,11 @@
 # Search on unisecproper[.]org
 
 ## Summary
-unisecproper[.]org/92[.]114[.]92[.]134 
+unisecproper[.]org/92.114.92.134 is a known domain connected to Fancy Bear for the purpose of distributing malware. [1](https://threatconnect.com/blog/finding-nemohost-fancy-bear-infrastructure/), 2, 3
 
 ## Censys
 
-92[.]114[.]92[.]134
+92.114.92.134
 
 We haven't found any publicly accessible services on this host or the host is on our blacklist.
 
@@ -19,7 +19,7 @@ Name Leonardo
 
 Organization Prisco
 
-Email le0nard0@mail.com
+Email le0nard0@mail[.]com
 
 Address Leonardo
 
@@ -33,7 +33,7 @@ Country BG
 
 Phone +359.785874764676
 
-NameServer stvl113289.venus.obox-dns.com
+NameServer stvl113289.venus.obox-dns[.]com
 
 Created 2017-02-21 09:18:01
 
@@ -45,9 +45,9 @@ DNS resolution
 
 Date IP Address
 
-2017-06-19 208[.]91[.]197[.]91
+2017-06-19 208.91.197.91
 
-2017-12-30 92[.]114[.]92[.]134
+2017-12-30 92.114.92.134
 
 https://bgp.he.net/dns/unisecproper[.]org
 
@@ -55,17 +55,17 @@ DNS info
 
 Start of Authority
 
-mname: stvl113289.mercury.obox-dns.com rname: le0nard0.mail.com
+mname: stvl113289.mercury.obox-dns[.]com rname: le0nard0.mail[.]com
 
 Nameservers
 
-stvl113289.earth.obox-dns.com
+stvl113289.earth.obox-dns[.]com
 
-stvl113289.mars.obox-dns.com
+stvl113289.mars.obox-dns[.]com
 
-stvl113289.mercury.obox-dns.com
+stvl113289.mercury.obox-dns[.]com
 
-stvl113289.venus.obox-dns.com
+stvl113289.venus.obox-dns[.]com
 
 hosted by
 http://www.seflow.net/2/index.php/en/?d=3
@@ -90,7 +90,7 @@ Registrant Country: BG
 
 Registrant Phone: +359.785874764676
 
-Registrant Email: le0nard0@mail.com
+Registrant Email: le0nard0@mail[.]com
 
 Registry Admin ID: C189547232-LROR
 
@@ -110,7 +110,7 @@ Admin Country: BG
 
 Admin Phone: +359.785874764676
 
-Admin Email: le0nard0@mail.com
+Admin Email: le0nard0@mail[.]com
 
 Registry Tech ID: C189547232-LROR
 
@@ -130,15 +130,15 @@ Tech Country: BG
 
 Tech Phone: +359.785874764676
 
-Tech Email: le0nard0@mail.com
+Tech Email: le0nard0@mail[.]com
 
-Name Server: STVL113289.MERCURY.OBOX-DNS.COM
+Name Server: STVL113289.MERCURY.OBOX-DNS[.]COM
 
-Name Server: STVL113289.VENUS.OBOX-DNS.COM
+Name Server: STVL113289.VENUS.OBOX-DNS[.]COM
 
-Name Server: STVL113289.EARTH.OBOX-DNS.COM
+Name Server: STVL113289.EARTH.OBOX-DNS[.]COM
 
-Name Server: STVL113289.MARS.OBOX-DNS.COM
+Name Server: STVL113289.MARS.OBOX-DNS[.]COM
 
 DNSSEC: unsigned
 
@@ -165,7 +165,7 @@ Website is Offline when last checked on 23 December 2017
 
 This report has been viewed 1 times since it was first created on 16 March 2017
 
-unisecproper[.]org is a 10 months old domain, situated in Italy. The domain is linked to the IP address 92[.]114[.]92[.]134.
+unisecproper[.]org is a 10 months old domain, situated in Italy. The domain is linked to the IP address 92.114.92.134.
 
 It was registered by Leonardo , who can be reached at . The site is owned by Prisco. Registration details show that it was registered on 21 Feb 2017 through pdr ltd. d/b/a publicdomainregistry.com.
 
@@ -187,21 +187,21 @@ Non-authoritative answer:
 
 Name: unisecproper[.]org
 
-Address: 92[.]114[.]92[.]134
+Address: 92.114.92.134
 
-* stvl113289.mercury.obox-dns.com.         7141     IN    A        162.251.82.122
-* stvl113289.mercury.obox-dns.com.         241      IN    A        162.251.82.251
-* stvl113289.venus.obox-dns.com.           241      IN    A        162.251.82.121
-* stvl113289.venus.obox-dns.com.           241      IN    A        162.251.82.120
-* stvl113289.earth.obox-dns.com.           241      IN    A        162.251.82.248
-* stvl113289.earth.obox-dns.com.           241      IN    A        162.251.82.246
-* stvl113289.mars.obox-dns.com.            7141     IN    A        162.251.82.124
-* stvl113289.mars.obox-dns.com.            7141     IN    A        162.251.82.252
+* stvl113289.mercury.obox-dns[.]com.         7141     IN    A        162.251.82.122
+* stvl113289.mercury.obox-dns[.]com.         241      IN    A        162.251.82.251
+* stvl113289.venus.obox-dns[.]com.           241      IN    A        162.251.82.121
+* stvl113289.venus.obox-dns[.]com.           241      IN    A        162.251.82.120
+* stvl113289.earth.obox-dns[.]com.           241      IN    A        162.251.82.248
+* stvl113289.earth.obox-dns[.]com.           241      IN    A        162.251.82.246
+* stvl113289.mars.obox-dns[.]com.            7141     IN    A        162.251.82.124
+* stvl113289.mars.obox-dns[.]com.            7141     IN    A        162.251.82.252
 
 # Search on obox-dns.com
 
 ## Whois
-Domain Name: OBOX-DNS.COM
+Domain Name: OBOX-DNS[.]COM
 
 Registry Domain ID: 1541806628_DOMAIN_COM-VRSN
 
@@ -225,13 +225,13 @@ Registrar Abuse Contact Phone: +1.2013775952
 
 Domain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited
 
-Name Server: EARTH.OBOX-DNS.COM
+Name Server: EARTH.OBOX-DNS[.]COM
 
-Name Server: MARS.OBOX-DNS.COM
+Name Server: MARS.OBOX-DNS[.]COM
 
-Name Server: MERCURY.OBOX-DNS.COM
+Name Server: MERCURY.OBOX-DNS[.]COM
 
-Name Server: VENUS.OBOX-DNS.COM
+Name Server: VENUS.OBOX-DNS[.]COM
 
 DNSSEC: unsigned
 
@@ -239,7 +239,7 @@ URL of the ICANN Whois Inaccuracy Complaint Form: https://www.icann.org/wicf/
 
 >>> Last update of whois database: 2017-12-30T19:46:49Z <<<
 
-Domain Name: OBOX-DNS.COM
+Domain Name: OBOX-DNS[.]COM
 
 Registry Domain ID: 1541806628_DOMAIN_COM-VRSN
 
@@ -337,13 +337,13 @@ Tech Fax Ext:
 
 Tech Email: domain.manager@directi.com
 
-Name Server: earth.obox-dns.com
+Name Server: earth.obox-dns[.]com
 
-Name Server: mars.obox-dns.com
+Name Server: mars.obox-dns[.]com
 
-Name Server: mercury.obox-dns.com
+Name Server: mercury.obox-dns[.]com
 
-Name Server: venus.obox-dns.com
+Name Server: venus.obox-dns[.]com
 
 DNSSEC: Unsigned
 
@@ -381,16 +381,16 @@ dns1.directi.com, dns2.directi.com, dns3.directi.com, dns4.directi.com
 
 ## The Harvester
 
-pixel-1514680310541568-web-@obox0dns.com
+pixel-1514680310541568-web-@obox0dns[.]com
 
-pixel-151468031276378-web-@obox0dns.com
+pixel-151468031276378-web-@obox0dns[.]com
 
 ## Host
 
-* obox-dns.com name server dns2.directi.com.
-* obox-dns.com name server dns4.directi.com.
-* obox-dns.com name server dns3.directi.com.
-* obox-dns.com name server dns1.directi.com.
+* obox-dns[.]com name server dns2.directi.com.
+* obox-dns[.]com name server dns4.directi.com.
+* obox-dns[.]com name server dns3.directi.com.
+* obox-dns[.]com name server dns1.directi.com.
 
 ## DNS enumeration
 
