@@ -165,3 +165,5 @@ https://www.noticeofpleadings.com/strontium/ microsoft's suit
 https://www.fireeye.com/blog/threat-research/2017/08/apt28-targets-hospitality-sector.html
 
 https://en.wikipedia.org/wiki/Fancy_Bear
+
+https://www.wired.com/story/russia-election-hacking-playbook/
