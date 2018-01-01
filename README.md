@@ -78,6 +78,10 @@ In each case, FireEye says that the hacked networks were those of moderately hig
 But FireEye says it doesn't know whether the hackers had specific visitors in mind, or were simply casting a wide net for potential victims. "Maybe this was designed just to establish a foothold and see who shows up, or maybe they were just testing something out," says Read. Other than victim whose case they analyzed last year, the company's analysts couldn't confirm any individual victims whose credentials were stolen from the target hotels.
 FireEye says it has "moderate confidence" in its conclusion that Fancy Bear conducted both the 2016 hotel attack and the more recent spate. It bases that assessment on the use of two pieces of Fancy Bear-associated malware, known as GameFish and XTunnel, planted on hotel and victim computers. The company also points to clues in the command and control infrastructure of that malware and information about the victims, which it's not making public.
 
+https://arstechnica.com/gadgets/2017/08/ukraine-malware-author-turns-witness-in-russian-dnc-hacking-investigation/
+PAS Web shell—a PHP-based implant used to execute commands remotely on hacked systems
+"Profexor" has not been charged in Ukraine, as he didn't use his remote access tool himself for malicious purposes. He did offer a version of the remote access tool for free on his member-only website, but he also built custom versions and provided training for pay. One of his customers was someone who used the tool in connection with malware connected to Fancy Bear to establish a backdoor into the DNC's network. But this is disputed https://krebsonsecurity.com/tag/p-a-s-web-shell/
+Ukrainian Member of Parliament Anton Gerashchenko, a former advisor to Ukraine's interior minister, told the Times that Profexor's contact with the Russians behind the DNC hack was entirely via online conversations and voice calls. Gerashchenko said that "Profexor" was paid to write a custom version of his tool without knowing what it would be used for.
 
 data
 July 25, 2017
@@ -172,3 +176,5 @@ https://www.fireeye.com/blog/threat-research/2017/08/apt28-targets-hospitality-s
 https://en.wikipedia.org/wiki/Fancy_Bear
 
 https://www.wired.com/story/russia-election-hacking-playbook/
+
+https://arstechnica.com/tech-policy/2016/12/obama-tosses-35-russians-out-of-us-sanctions-others-for-election-meddling/
