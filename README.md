@@ -83,6 +83,29 @@ PAS Web shell—a PHP-based implant used to execute commands remotely on hacked 
 "Profexor" has not been charged in Ukraine, as he didn't use his remote access tool himself for malicious purposes. He did offer a version of the remote access tool for free on his member-only website, but he also built custom versions and provided training for pay. One of his customers was someone who used the tool in connection with malware connected to Fancy Bear to establish a backdoor into the DNC's network. But this is disputed https://krebsonsecurity.com/tag/p-a-s-web-shell/
 Ukrainian Member of Parliament Anton Gerashchenko, a former advisor to Ukraine's interior minister, told the Times that Profexor's contact with the Russians behind the DNC hack was entirely via online conversations and voice calls. Gerashchenko said that "Profexor" was paid to write a custom version of his tool without knowing what it would be used for.
 
+https://www.nytimes.com/2017/08/16/world/europe/russia-ukraine-malware-hacking-witness.html?smprod=nytcore-ipad&smid=nytcore-ipad-share
+Rather than training, arming and deploying hackers to carry out a specific mission like just another military unit, Fancy Bear and its twin Cozy Bear have operated more as centers for organization and financing; much of the hard work like coding is outsourced to private and often crime-tainted vendors.
+
+https://www.nytimes.com/2017/08/16/world/europe/russia-ukraine-malware-hacking-witness.html?smprod=nytcore-ipad&smid=nytcore-ipad-share
+Traces of the same malicious code, this time a program called Sofacy, were seen in the 2014 attack in Ukraine and later in the D.N.C. intrusion in the United States.
+In several instances, certain types of computer intrusions, like the use of malware to knock out crucial infrastructure or to pilfer email messages later released to tilt public opinion, occurred in Ukraine first. Only later were the same techniques used in Western Europe and the United States.
+Included in this sharing of information were copies of the server hard drives of Ukraine’s Central Election Commission, which were targeted during a presidential election in May 2014. That the F.B.I. had obtained evidence of this earlier, Russian-linked electoral hack has not been previously reported.
+Traces of the same malicious code, this time a program called Sofacy, were seen in the 2014 attack in Ukraine and later in the D.N.C. intrusion in the United States.
+Intriguingly, in the cyberattack during the Ukrainian election, what appears to have been a bungle by Channel 1, a Russian state television station, inadvertently implicated the government authorities in Moscow.
+Hackers had loaded onto a Ukrainian election commission server a graphic mimicking the page for displaying results. This phony page showed a shocker of an outcome: an election win for a fiercely anti-Russian, ultraright candidate, Dmytro Yarosh. Mr. Yarosh in reality received less than 1 percent of the vote.
+The false result would have played into a Russian propaganda narrative that Ukraine today is ruled by hard-right, even fascist, figures.
+The fake image was programmed to display when polls closed, at 8 p.m., but a Ukrainian cybersecurity company, InfoSafe, discovered it just minutes earlier and unplugged the server.
+State television in Russia nevertheless reported that Mr. Yarosh had won and broadcast the fake graphic, citing the election commission’s website, even though the image had never appeared there. The hacker had clearly provided Channel 1 with the same image in advance, but the reporters had failed to check that the hack actually worked.
+In 2016, two years after the election hack in Ukraine, hackers using some of the same techniques plundered the email system of the World Anti-Doping Agency, or WADA, which had accused Russian athletes of systematic drug use.
+Photo
+A website announced that WADA had been hacked by a group calling itself the “Fancy Bears’ Hack Team.” Credit Alexander Zemlianichenko/Associated Press
+That raid, too, seems to have been closely coordinated with Russian state television, which began airing well-prepared reports about WADA’s hacked emails just minutes after they were made public. The emails appeared on a website that announced that WADA had been hacked by a group calling itself the “Fancy Bears’ Hack Team.”
+Fancy Bear remains extraordinarily elusive, however. To throw investigators off its scent, the group has undergone various makeovers, restocking its arsenal of malware and sometimes hiding under different guises. One of its alter egos, cyberexperts believe, is Cyber Berkut, an outfit supposedly set up in Ukraine by supporters of the country’s pro-Russian president, Viktor F. Yanukovych, who was ousted in 2014.
+
+https://nakedsecurity.sophos.com/2017/08/15/fancy-bear-bites-hotel-networks-as-eternalblue-mystery-deepens/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+nakedsecurity+%28Naked+Security+-+Sophos%29
+One unusual element is NetBIOS Name Service poisoning using the open source Responder tool, which allows the attackers to respond and spoof NBT-NS broadcasts from WINS (Windows Internet Name Service) servers.
+Because this is a legacy service, removed from Windows as of Server 2012 R2, this suggests the attackers have knowledge of the unsurprising fact that hotels are using old software.
+
 data
 July 25, 2017
 One of the domains, the security company reveals, is unisecproper[.]org, which was registered using the email address le0nard0@mail[.]com and is hosted on a dedicated server at the IP 92.114.92.134. The certificate used by this domain has been already associated (PDF) with Fancy Bear in operations targeting the DNC and German Parliament, which clearly indicates that the domain is associated with the group. http://www.securityweek.com/tech-firms-target-domains-used-russia-linked-threat-group
@@ -107,14 +130,6 @@ follow up
 ThreatConnect says their team was able to identify “dozens of recently registered domains and IPs that have varying levels of association to the Russian APT.” http://www.securityweek.com/tech-firms-target-domains-used-russia-linked-threat-group
 
 ## Links
-
-https://arstechnica.com/gadgets/2017/08/ukraine-malware-author-turns-witness-in-russian-dnc-hacking-investigation/
-
-https://www.nytimes.com/2017/08/16/world/europe/russia-ukraine-malware-hacking-witness.html?smprod=nytcore-ipad&smid=nytcore-ipad-share
-
-http://www.startribune.com/ukraine-malware-expert-may-blow-whistle-on-russian-hacking/440791753/
-
-https://nakedsecurity.sophos.com/2017/08/15/fancy-bear-bites-hotel-networks-as-eternalblue-mystery-deepens/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+nakedsecurity+%28Naked+Security+-+Sophos%29
 
 https://www.scmagazine.com/ukrainian-malware-author-is-key-witness-against-russia-in-dnc-hack-investigation/article/682137/
 
@@ -178,3 +193,7 @@ https://en.wikipedia.org/wiki/Fancy_Bear
 https://www.wired.com/story/russia-election-hacking-playbook/
 
 https://arstechnica.com/tech-policy/2016/12/obama-tosses-35-russians-out-of-us-sanctions-others-for-election-meddling/
+
+https://www.wordfence.com/blog/2016/12/russia-malware-ip-hack/
+
+https://nakedsecurity.sophos.com/2017/02/13/fancy-bear-whos-behind-the-group-implicated-in-so-many-political-hacks/
