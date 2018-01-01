@@ -70,6 +70,15 @@ Researchers note that in one incident, a victim was compromised after connecting
 The technique also exploits single factor user authentication -- using two factor authentication makes it harder for the hackers to break into targeted accounts.
 However, FireEye says the two campaigns aren't linked and that DarkHotel -- also known as Fallout Team -- looks to be the work of a "Korean peninsula-nexus cyber espionage actor" and not APT28.
 
+https://www.wired.com/story/fancy-bear-hotel-hack/?mbid=nl_81117_p1&CNDID=50740756
+Disturbingly, once those hackers take control of hotels' Wi-Fi, they’re using that access to harvest victim computers’ usernames and passwords silently, with a trick that doesn’t even require users to actively type them when signed onto the hotel network.
+FireEye says it first saw evidence that Fancy Bear might be targeting hotels in the fall of last year, when the company analyzed an intrusion that had started on one corporate employee's computer. The company traced that infection to the victim's use of a hotel Wi-Fi network while traveling; 12 hours after the person had connected to that network, someone connected to the same Wi-Fi network had used the victim's own credentials to log into their computer, install malware on their machine, and access their Outlook data. That implies, FireEye says, that a hacker had been sitting on the same hotel's network, possibly sniffing its data to intercept the victim's credentials.
+From there, the attackers used a network-hacking tool called Responder, which allowed them not only to monitor traffic on the hijacked networks, but also to trick computers connecting to them to cough up users' credentials without giving victims any sign of the theft. When the victim computer reaches out to known services like printers or shared folders, Responder can impersonate those friendly entities with a fake authentication process, fooling the victim machine into transmitting its network username and password. And while the password is sent in a cryptographically hashed form, that hashing can sometimes be cracked. (FireEye believes, for instance, that hackers used Responder to steal the hotel guest's password in the 2016 case; the 12-hour delay may have been the time it took to crack the hash.)
+In each case, FireEye says that the hacked networks were those of moderately high-end hotels, the kind that attract presumably valuable targets. "These were not super expensive places, but also not the Holiday Inn," FireEye's Read says. "They're the type of hotel a distinguished visitor would stay in when they’re on corporate travel or diplomatic business."
+But FireEye says it doesn't know whether the hackers had specific visitors in mind, or were simply casting a wide net for potential victims. "Maybe this was designed just to establish a foothold and see who shows up, or maybe they were just testing something out," says Read. Other than victim whose case they analyzed last year, the company's analysts couldn't confirm any individual victims whose credentials were stolen from the target hotels.
+FireEye says it has "moderate confidence" in its conclusion that Fancy Bear conducted both the 2016 hotel attack and the more recent spate. It bases that assessment on the use of two pieces of Fancy Bear-associated malware, known as GameFish and XTunnel, planted on hotel and victim computers. The company also points to clues in the command and control infrastructure of that malware and information about the victims, which it's not making public.
+
+
 data
 July 25, 2017
 One of the domains, the security company reveals, is unisecproper[.]org, which was registered using the email address le0nard0@mail[.]com and is hosted on a dedicated server at the IP 92.114.92.134. The certificate used by this domain has been already associated (PDF) with Fancy Bear in operations targeting the DNC and German Parliament, which clearly indicates that the domain is associated with the group. http://www.securityweek.com/tech-firms-target-domains-used-russia-linked-threat-group
@@ -94,8 +103,6 @@ follow up
 ThreatConnect says their team was able to identify “dozens of recently registered domains and IPs that have varying levels of association to the Russian APT.” http://www.securityweek.com/tech-firms-target-domains-used-russia-linked-threat-group
 
 ## Links
-
-https://www.wired.com/story/fancy-bear-hotel-hack/?mbid=nl_81117_p1&CNDID=50740756
 
 http://www.ciol.com/russian-hackers-targeting-indian-hospitality-industry-for-user-data/
 
