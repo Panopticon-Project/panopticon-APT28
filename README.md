@@ -1,4 +1,10 @@
-# panopticon-fancybear
+![alt tag](https://user-images.githubusercontent.com/24201238/29351849-9c3087b4-82b8-11e7-8fed-350e3b8b4945.png)
+
+# Panopticon Project
+
+## Fancy Bear
+
+![alt tag](https://fancybear.net/image/bear_PNG12011.png)
 
 ## Attack Pattern
 A type of Tactics, Techniques, and Procedures (TTP) that describes ways threat actors attempt to compromise targets.
