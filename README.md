@@ -59,6 +59,9 @@ The spying campaign included Russian agents posing as friends of friends of Macr
 Facebook employees noticed the efforts during the first round of the presidential election and traced them to tools used in the past by Russia’s GRU military intelligence unit, said the people, who spoke on condition they not be named because they were discussing sensitive government and private intelligence.
 Facebook told American officials that it did not believe the spies burrowed deep enough to get the targets to download malicious software or give away their login information, 
 
+http://www.zdnet.com/article/hackers-are-now-using-the-exploit-behind-wannacry-to-snoop-on-hotel-wi-fi/
+Researchers at FireEye have attributed a campaign to remotely steal credentials from guests using Wi-Fi networks at hotels in Europe to APT28 -- also known as Fancy Bear
+
 data
 July 25, 2017
 One of the domains, the security company reveals, is unisecproper[.]org, which was registered using the email address le0nard0@mail[.]com and is hosted on a dedicated server at the IP 92.114.92.134. The certificate used by this domain has been already associated (PDF) with Fancy Bear in operations targeting the DNC and German Parliament, which clearly indicates that the domain is associated with the group. http://www.securityweek.com/tech-firms-target-domains-used-russia-linked-threat-group
@@ -154,3 +157,5 @@ https://www.welivesecurity.com/2016/10/25/lifting-lid-sednit-closer-look-softwar
 https://www.noticeofpleadings.com/strontium/ microsoft's suit
 
 https://www.fireeye.com/blog/threat-research/2017/08/apt28-targets-hospitality-sector.html
+
+https://en.wikipedia.org/wiki/Fancy_Bear
