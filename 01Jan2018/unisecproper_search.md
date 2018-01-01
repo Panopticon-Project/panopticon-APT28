@@ -10,7 +10,7 @@ We haven't found any publicly accessible services on this host or the host is on
 
 https://www.threatcrowd.org/domain.php?domain=UNISECPROPER.ORG
 
-**whois**
+whois
 
 Name Leonardo
 
@@ -48,13 +48,13 @@ Date IP Address
 
 https://bgp.he.net/dns/unisecproper.org
 
-**DNS info**
+DNS info
 
 Start of Authority
 
 mname: stvl113289.mercury.obox-dns.com rname: le0nard0.mail.com
 
-**Nameservers**
+Nameservers
 
 stvl113289.earth.obox-dns.com
 
@@ -141,7 +141,7 @@ DNSSEC: unsigned
 
 ## Robtex
 
-ips of the nameservers
+IP addresses of the nameservers
 * 162.251.82.120
 * 162.251.82.121
 * 162.251.82.122
