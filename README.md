@@ -106,6 +106,9 @@ https://nakedsecurity.sophos.com/2017/08/15/fancy-bear-bites-hotel-networks-as-e
 One unusual element is NetBIOS Name Service poisoning using the open source Responder tool, which allows the attackers to respond and spoof NBT-NS broadcasts from WINS (Windows Internet Name Service) servers.
 Because this is a legacy service, removed from Windows as of Server 2012 R2, this suggests the attackers have knowledge of the unsurprising fact that hotels are using old software.
 
+Responder https://github.com/SpiderLabs/Responder
+
+
 data
 July 25, 2017
 One of the domains, the security company reveals, is unisecproper[.]org, which was registered using the email address le0nard0@mail[.]com and is hosted on a dedicated server at the IP 92.114.92.134. The certificate used by this domain has been already associated (PDF) with Fancy Bear in operations targeting the DNC and German Parliament, which clearly indicates that the domain is associated with the group. http://www.securityweek.com/tech-firms-target-domains-used-russia-linked-threat-group
@@ -130,8 +133,6 @@ follow up
 ThreatConnect says their team was able to identify “dozens of recently registered domains and IPs that have varying levels of association to the Russian APT.” http://www.securityweek.com/tech-firms-target-domains-used-russia-linked-threat-group
 
 ## Links
-
-http://www.esecurityplanet.com/network-security/travelers-beware-russian-apt28-hackers-hit-hotels-in-europe-middle-east.html
 
 https://www.tripwire.com/state-of-security/featured/german-parliament-malware-mystery/#new_tab
 
