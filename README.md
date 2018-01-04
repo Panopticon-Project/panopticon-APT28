@@ -108,6 +108,12 @@ Because this is a legacy service, removed from Windows as of Server 2012 R2, thi
 
 Responder https://github.com/SpiderLabs/Responder
 
+http://blog.talosintelligence.com/2017/10/cyber-conflict-decoy-document.html
+Group 74 
+Cisco Talos discovered a new malicious campaign from the well known actor Group 74 (aka Tsar Team, Sofacy, APT28, Fancy Bear…). Ironically the decoy document is a deceptive flyer relating to the Cyber Conflict U.S. conference. CyCon US is a collaborative effort between the Army Cyber Institute at the United States Military Academy and the NATO Cooperative Cyber Military Academy and the NATO Cooperative Cyber Defence Centre of Excellence. Due to the nature of this document, we assume that this campaign targets people with an interest in cyber security. Unlike previous campaigns from this actor, the flyer does not contain an Office exploit or a 0-day, it simply contains a malicious Visual Basic for Applications (VBA) macro.
+The VBA drops and executes a new variant of Seduploader. This reconnaissance malware has been used by Group 74 for years and it is composed of 2 files: a dropper and a payload. The dropper and the payload are quite similar to the previous versions but the author modified some public information such as MUTEX name, obfuscation keys... We assume that these modifications were performed to avoid detection based on public IOCs.
+
+The decoy document is a flyer concerning the Cyber Conflict U.S. conference with the following filename Conference_on_Cyber_Conflict.doc. It contains 2 pages with the logo of the organizer and the sponsors:
 
 data
 July 25, 2017
@@ -133,7 +139,6 @@ follow up
 ThreatConnect says their team was able to identify “dozens of recently registered domains and IPs that have varying levels of association to the Russian APT.” http://www.securityweek.com/tech-firms-target-domains-used-russia-linked-threat-group
 
 ## Links
-
 http://blog.talosintelligence.com/2017/10/cyber-conflict-decoy-document.html
 
 http://www.securityweek.com/russian-fancy-bear-hackers-abuse-blogspot-phishing
@@ -196,3 +201,5 @@ http://blog.trendmicro.com/trendlabs-security-intelligence/pawn-storm-targets-ge
 https://www.fireeye.com/blog/threat-research/2014/10/apt28-a-window-into-russias-cyber-espionage-operations.html
 
 https://netzpolitik.org/2015/digital-attack-on-german-parliament-investigative-report-on-the-hack-of-the-left-party-infrastructure-in-bundestag/
+
+https://ccdcoe.org/cycon-us-website-info-used-decoy-malicious-campaign.html
