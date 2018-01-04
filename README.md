@@ -134,8 +134,6 @@ ThreatConnect says their team was able to identify “dozens of recently registe
 
 ## Links
 
-https://www.salon.com/2017/09/24/russian-hackers-exploited-a-google-flaw-and-google-wont-fix-it/
-
 http://blog.talosintelligence.com/2017/10/cyber-conflict-decoy-document.html
 
 http://www.securityweek.com/russian-fancy-bear-hackers-abuse-blogspot-phishing
@@ -193,4 +191,8 @@ https://www.wordfence.com/blog/2016/12/russia-malware-ip-hack/
 
 https://nakedsecurity.sophos.com/2017/02/13/fancy-bear-whos-behind-the-group-implicated-in-so-many-political-hacks/
 
-http://www.bbc.com/news/technology-36284447
+http://blog.trendmicro.com/trendlabs-security-intelligence/pawn-storm-targets-german-christian-democratic-union/
+
+https://www.fireeye.com/blog/threat-research/2014/10/apt28-a-window-into-russias-cyber-espionage-operations.html
+
+https://netzpolitik.org/2015/digital-attack-on-german-parliament-investigative-report-on-the-hack-of-the-left-party-infrastructure-in-bundestag/
