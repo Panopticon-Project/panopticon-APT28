@@ -134,8 +134,6 @@ ThreatConnect says their team was able to identify “dozens of recently registe
 
 ## Links
 
-https://www.tripwire.com/state-of-security/featured/german-parliament-malware-mystery/#new_tab
-
 https://www.salon.com/2017/09/24/russian-hackers-exploited-a-google-flaw-and-google-wont-fix-it/
 
 http://blog.talosintelligence.com/2017/10/cyber-conflict-decoy-document.html
@@ -194,3 +192,5 @@ https://arstechnica.com/tech-policy/2016/12/obama-tosses-35-russians-out-of-us-s
 https://www.wordfence.com/blog/2016/12/russia-malware-ip-hack/
 
 https://nakedsecurity.sophos.com/2017/02/13/fancy-bear-whos-behind-the-group-implicated-in-so-many-political-hacks/
+
+http://www.bbc.com/news/technology-36284447
