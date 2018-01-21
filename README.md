@@ -205,3 +205,5 @@ https://netzpolitik.org/2015/digital-attack-on-german-parliament-investigative-r
 https://ccdcoe.org/cycon-us-website-info-used-decoy-malicious-campaign.html
 
 https://www.nytimes.com/2018/01/10/sports/olympics/russian-hackers-emails-doping.html?_r=1
+
+http://www.securityweek.com/russia-linked-attacks-political-organizations-continue
