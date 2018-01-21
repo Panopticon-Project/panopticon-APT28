@@ -209,3 +209,5 @@ https://www.nytimes.com/2018/01/10/sports/olympics/russian-hackers-emails-doping
 http://www.securityweek.com/russia-linked-attacks-political-organizations-continue
 
 http://www.securityweek.com/hackers-leak-olympic-committee-emails-response-russia-ban
+
+https://blog.trendmicro.com/trendlabs-security-intelligence/update-pawn-storm-new-targets-politically-motivated-campaigns/
