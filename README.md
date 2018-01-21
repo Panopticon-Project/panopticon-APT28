@@ -217,3 +217,5 @@ http://www.therepublic.com/2018/01/12/eu-russian-hackers-senate/
 http://www.news18.com/news/tech/russia-apparently-hacking-winter-olympics-emails-report-1629201.html
 
 https://www.wired.com/story/russian-fancy-bears-hackers-release-apparent-ioc-emails/?mbid=nl_011118_daily_list1_p4
+
+https://threatconnect.com/blog/duping-doping-domains/?utm_campaign=Nurture%202017&utm_source=hs_email&utm_medium=email&utm_content=59950890&_hsenc=p2ANqtz-8-jLcf4gUp-qodQfiwsPPXPxu5TgLCSJY8LPQEr5kVKNnIt2UNt-nwzwbwghANIFgFnIwF8OR3m_DNFKGSWiaYmjwNDA&_hsmi=59950890
