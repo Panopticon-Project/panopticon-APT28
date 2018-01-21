@@ -211,3 +211,5 @@ http://www.securityweek.com/russia-linked-attacks-political-organizations-contin
 http://www.securityweek.com/hackers-leak-olympic-committee-emails-response-russia-ban
 
 https://blog.trendmicro.com/trendlabs-security-intelligence/update-pawn-storm-new-targets-politically-motivated-campaigns/
+
+http://www.therepublic.com/2018/01/12/eu-russian-hackers-senate/
