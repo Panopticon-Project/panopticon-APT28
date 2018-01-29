@@ -186,7 +186,6 @@ follow up
 ThreatConnect says their team was able to identify “dozens of recently registered domains and IPs that have varying levels of association to the Russian APT.” http://www.securityweek.com/tech-firms-target-domains-used-russia-linked-threat-group
 
 ## Links
-http://blog.talosintelligence.com/2017/10/cyber-conflict-decoy-document.html
 
 http://www.securityweek.com/russian-fancy-bear-hackers-abuse-blogspot-phishing
 
