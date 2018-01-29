@@ -115,6 +115,53 @@ The VBA drops and executes a new variant of Seduploader. This reconnaissance mal
 
 The decoy document is a flyer concerning the Cyber Conflict U.S. conference with the following filename Conference_on_Cyber_Conflict.doc. It contains 2 pages with the logo of the organizer and the sponsors:
 
+The goal of this code is to get information from the properties of the document ("Subject", "Company", "Category", "Hyperlink base" and finally "Comments"). Some of this information can be directly extracted from the Windows explorer by looking at the properties of the file. The "Hyperlink Base" must be extracted using another tool, strings is capable of obtaining this by looking for long strings. Pay close attention to the contents of these fields as they appear base64 encoded. This extracted information is concatenated together to make a single variable. This variable is decoded with the base64 algorithm in order to get a Windows library (PE file) which is written to disk. The file is named netwf.dat. On the next step this file is executed by rundll32.exe via the KlpSvc export. We see that this file drops 2 additional files: netwf.bat and netwf.dll. The final part of the VBA script changes the properties of these two files, setting their attributes to Hidden. We can also see 2 VBA variable names: PathPld, probably for Path Payload, and PathPldBt, for Path Payload Batch.
+
+SEDUPLOADER VARIANT
+Dropper Analysis
+As opposed to previous campaigns performed by this actor, this latest version does not contain privilege escalation and it simply executes the payload and configures persistence mechanisms. The dropper installs 2 files:
+netwf.bat : executes netwf.dll
+netwf.dll : the payload
+The dropper implements 2 persistence mechanisms:
+HKCU\Environment\UserInitMprLogonScript to execute the netwf.bat file
+COM Object hijack of the following CLSID: {BCDE0395-E52F-467C-8E3D-C4579291692E}, the CLSID of the class MMDeviceEnumerator.
+These 2 techniques have also been previously used by this actor.
+Finally the payload is executed by rundll32.exe (and the ordinal #1 in argument) or by explorer.exe if the COM Object hijack is performed. In this case, explorer.exe will instance the MMDeviceEnumerator class and will execute the payload.
+
+Payload Analysis
+The payload features are similar to the previous versions of Seduploader. We can compare it to the sample e338d49c270baf64363879e5eecb8fa6bdde8ad9 used in May 2017 by Group 74. Of the 195 functions of the new sample, 149 are strictly identical, 16 match at 90% and 2 match at 80%
+In the previous campaign where adversaries used Office document exploits as an infection vector, the payload was executed in the Office word process. In this campaign, adversaries did not use any exploit. Instead,the payload is executed in standalone mode by rundll32.exe.
+
+Adversaries also changed some constants, such as the XOR key used in the previous version. The key in our version is:
+key=b"\x08\x7A\x05\x04\x60\x7c\x3e\x3c\x5d\x0b\x18\x3c\x55\x64"
+The MUTEX name is different too: FG00nxojVs4gLBnwKc7HhmdK0h
+
+Here are some of the Seduploader features:
+Screenshot capture (with the GDI API);
+data/configuration exfiltration;
+Execution of code;
+File downloading;
+
+The Command & Control (CC) of the analysed sample is myinvestgroup[.]com. During the investigation, the server did not provide any configuration to the infected machines. Based on the metadata of the Office documents and the PE files, the attackers had created the file on Wednesday, the 4th of October. We can see, in Cisco Umbrella, a peak in activities 3 days later, Saturday the 7th of October
+
+Additionally the author did some small updates after publications from the security community, again this is common for actors of this sophisticated nature, once their campaigns have been exposed they will often try to change tooling to ensure better avoidance. For example the actor changed the XOR key and the MUTEX name. - could be they systematically change this
+
+Files
+
+Office Documents:
+c4be15f9ccfecf7a463f3b1d4a17e7b4f95de939e057662c3f97b52f7fa3c52f
+e5511b22245e26a003923ba476d7c36029939b2d1936e17a9b35b396467179ae
+efb235776851502672dba5ef45d96cc65cb9ebba1b49949393a6a85b9c822f52
+Seduploader Dropper:
+522fd9b35323af55113455d823571f71332e53dde988c2eb41395cf6b0c15805
+Sedupload Payload:
+ef027405492bc0719437eb58c3d2774cc87845f30c40040bbebbcc09a4e3dd18
+Networks
+
+CC:
+myinvestgroup[.]com
+
+
 data
 July 25, 2017
 One of the domains, the security company reveals, is unisecproper[.]org, which was registered using the email address le0nard0@mail[.]com and is hosted on a dedicated server at the IP 92.114.92.134. The certificate used by this domain has been already associated (PDF) with Fancy Bear in operations targeting the DNC and German Parliament, which clearly indicates that the domain is associated with the group. http://www.securityweek.com/tech-firms-target-domains-used-russia-linked-threat-group
