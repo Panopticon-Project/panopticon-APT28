@@ -161,6 +161,29 @@ Networks
 CC:
 myinvestgroup[.]com
 
+http://www.securityweek.com/russian-fancy-bear-hackers-abuse-blogspot-phishing
+The cyber espionage group known as Fancy Bear, which is widely believed to be backed by the Russian government, has been abusing Google’s Blogspot service in recent phishing attacks. Threat intelligence firm ThreatConnect spotted the use of the blogging service while analyzing attacks aimed at Bellingcat, a group of investigative journalists that uses open source information to report on various events taking place around the world.
+Fancy Bear, also known as Pawn Storm, APT28, Sofacy, Sednit, Strontium and Tsar Team, was first seen targeting Bellingcat in 2015 as part of a campaign aimed at entities investigating Russia’s involvement in the downing of Malaysia Airlines flight MH17 in July 2014 as it was crossing a conflict zone in Ukraine.
+The latest attacks aimed at Bellingcat involved fake emails instructing users to change their Gmail passwords as a result of unauthorized activity on their account, and Dropbox invitations to view shared folders.
+
+https://www.threatconnect.com/blog/fancy-bear-leverages-blogspot/
+Our friends over at Bellingcat, which conducts open source investigations and writes extensively on Russia-related issues, recently shared a new tranche of spear-phishing emails they had received. Spoiler alert: they originated from Fancy Bear actors. Using the ThreatConnect platform we ingested the spear-phishing emails Bellingcat provided, processed out the relevant indicators, and compared them to previously known Fancy Bear activity. It turns out that this campaign had an association to 2016 Fancy Bear activity previously identified by the German Federal Office for the Protection of the Constitution (BfV). More interestingly however, Fancy Bear employed a new tactic we hadn't previously seen: using Blogspot-hosted URLs in their spear-phishing email messages. The Blogspot page contained a javascript window location that redirected the visitor to a second URL hosted on a dedicated server.
+The phishing email used to deliver the malicious URLs pretends to be a password change for the target's Google account or a link to view a folder shared via Dropbox.
+
+The phishing email contains a link hosted on Blogspot such as this: hxxps://pkfnmugfdsveskjtb[.]blogspot[.]com. This URL also contains a query parameter, "uid", that is unique per phishing email. The full format for the URL is the following:
+https?://[a-z0-9]{11,17}\.blogspot\.(?:com|pt)\?uid=[a-z0-9]{10}
+
+The blogspot page contains a small snippet of Javascript near the top of the source html that includes a Javascript window location redirect. An example of this javascript is:
+The landing page URL in this redirect, hxxps://google[.]com[.]account-password[.]ga/security/signinoptions/password is hosted on google[.]com[.]account-password[.]ga which currently resolves to the IP address 80.255.12[.]231. This IP is a dedicated VPS hosted by MonoVM, a company based in Dubai.
+Using  Farsight's passive DNSDB integration in ThreatConnect, a number of other similar hostnames were found resolving to 80.255.12[.]231. One in particular, accounts[.]google[.]com[.]securitymail[.]gq, stands out from the rest. The base domain of this host, securitymail[.]gq, has a previous resolution to IP 95.153.32[.]52. This IP address is a broadband connection located in Estonia on TELE2's network that was also used to host the domain smtprelayhost[.]com from December 2015 to December 2016. This overlaps with the time that securitymail[.]gq resolved to the same broadband IP address in March 2016. In case you may have missed it, smtprelayhost[.]com is called out as being Fancy Bear infrastructure in BfV Cyber-Brief Nr. 01/2016.
+
+The use of Blogspot URLs has similarities with the notional tactics identified in a September Salon article on Fancy Bear leveraging Google's Accelerated Mobile Pages (AMP) to create URLs for their credential harvesting pages. Doing so likely allowed some Fancy Bear spear-phishing messages to avoid security filters that would have otherwise identified the malicious URLs. In this same way, a URL hosted on Google's own systems, in this case Blogspot, may be more likely to get past spam filters than URLs hosted on a third party IP address or hostname.
+Several of the domains that host the credential harvesting pages identified above use .ga or .gq top level domains (TLDs) and were registered through Freenom. This reminded us of Fancy Bear's .ga Freenom infrastructure that they also employed against Bellingcat in October 2016.
+
+http://www.securityweek.com/russia-linked-spies-deliver-malware-dde-attack
+The Russia-linked cyber espionage group tracked as APT28 and Fancy Bear has started delivering malware to targeted users by leveraging a recently disclosed technique involving Microsoft Office documents and a Windows feature called Dynamic Data Exchange (DDE).
+Researchers at McAfee noticed the use of the DDE technique while analyzing a campaign that involved blank documents whose name referenced the recent terrorist attack in New York City.
+Researchers warned recently that DDE, a protocol designed for data exchanges between Windows applications, could be used by hackers as a substitute for macros in attacks involving malicious documents. Shortly after, security firms reported seeing attacks leveraging DDE to deliver malware, including Locky ransomware.
 
 data
 July 25, 2017
@@ -186,8 +209,6 @@ follow up
 ThreatConnect says their team was able to identify “dozens of recently registered domains and IPs that have varying levels of association to the Russian APT.” http://www.securityweek.com/tech-firms-target-domains-used-russia-linked-threat-group
 
 ## Links
-
-http://www.securityweek.com/russian-fancy-bear-hackers-abuse-blogspot-phishing
 
 http://www.securityweek.com/russia-linked-spies-deliver-malware-dde-attack
 
@@ -265,3 +286,7 @@ http://www.news18.com/news/tech/russia-apparently-hacking-winter-olympics-emails
 https://www.wired.com/story/russian-fancy-bears-hackers-release-apparent-ioc-emails/?mbid=nl_011118_daily_list1_p4
 
 https://threatconnect.com/blog/duping-doping-domains/?utm_campaign=Nurture%202017&utm_source=hs_email&utm_medium=email&utm_content=59950890&_hsenc=p2ANqtz-8-jLcf4gUp-qodQfiwsPPXPxu5TgLCSJY8LPQEr5kVKNnIt2UNt-nwzwbwghANIFgFnIwF8OR3m_DNFKGSWiaYmjwNDA&_hsmi=59950890
+
+https://www.verfassungsschutz.de/embed/broschuere-2016-03-bfv-cyber-brief-2016-01.pdf
+
+https://www.salon.com/2017/09/24/russian-hackers-exploited-a-google-flaw-and-google-wont-fix-it/
