@@ -292,3 +292,5 @@ https://www.verfassungsschutz.de/embed/broschuere-2016-03-bfv-cyber-brief-2016-0
 https://www.salon.com/2017/09/24/russian-hackers-exploited-a-google-flaw-and-google-wont-fix-it/
 
 http://blog.talosintelligence.com/2017/10/cyber-conflict-decoy-document.html
+
+http://www.securityweek.com/russia-linked-attacks-political-organizations-continue
