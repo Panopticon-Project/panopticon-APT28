@@ -290,3 +290,5 @@ https://threatconnect.com/blog/duping-doping-domains/?utm_campaign=Nurture%20201
 https://www.verfassungsschutz.de/embed/broschuere-2016-03-bfv-cyber-brief-2016-01.pdf
 
 https://www.salon.com/2017/09/24/russian-hackers-exploited-a-google-flaw-and-google-wont-fix-it/
+
+http://blog.talosintelligence.com/2017/10/cyber-conflict-decoy-document.html
