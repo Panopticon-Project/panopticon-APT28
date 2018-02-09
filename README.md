@@ -294,3 +294,5 @@ https://www.salon.com/2017/09/24/russian-hackers-exploited-a-google-flaw-and-goo
 http://blog.talosintelligence.com/2017/10/cyber-conflict-decoy-document.html
 
 http://www.securityweek.com/russia-linked-attacks-political-organizations-continue
+
+http://www.ibtimes.com/russian-hackers-duped-us-defense-contractors-exposing-secret-military-tech-2651207
