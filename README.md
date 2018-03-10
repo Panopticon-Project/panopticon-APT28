@@ -300,3 +300,5 @@ http://www.ibtimes.com/russian-hackers-duped-us-defense-contractors-exposing-sec
 https://www.securityweek.com/sofacy-attacks-overlap-other-state-sponsored-operations
 
 https://www.securityweek.com/cyberattack-ongoing-against-german-government-network
+
+https://www.securityweek.com/russia-linked-hackers-directly-targeting-diplomats-report
