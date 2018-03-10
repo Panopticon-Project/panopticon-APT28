@@ -298,3 +298,5 @@ http://www.securityweek.com/russia-linked-attacks-political-organizations-contin
 http://www.ibtimes.com/russian-hackers-duped-us-defense-contractors-exposing-secret-military-tech-2651207
 
 https://www.securityweek.com/sofacy-attacks-overlap-other-state-sponsored-operations
+
+https://www.securityweek.com/cyberattack-ongoing-against-german-government-network
