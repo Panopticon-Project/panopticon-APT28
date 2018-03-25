@@ -302,3 +302,5 @@ https://www.securityweek.com/sofacy-attacks-overlap-other-state-sponsored-operat
 https://www.securityweek.com/cyberattack-ongoing-against-german-government-network
 
 https://www.securityweek.com/russia-linked-hackers-directly-targeting-diplomats-report
+
+https://www.rferl.org/a/montenegro-seeks-stare-down-fancy-bear-ahead-election/29105869.html
