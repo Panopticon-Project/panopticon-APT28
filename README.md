@@ -304,3 +304,5 @@ https://www.securityweek.com/cyberattack-ongoing-against-german-government-netwo
 https://www.securityweek.com/russia-linked-hackers-directly-targeting-diplomats-report
 
 https://www.rferl.org/a/montenegro-seeks-stare-down-fancy-bear-ahead-election/29105869.html
+
+http://www.cyberdefensemagazine.com/pawn-storm-used-a-new-flash-zero-day-in-attacks-on-the-nato-the-white-house/
