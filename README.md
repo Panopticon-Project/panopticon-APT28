@@ -308,3 +308,5 @@ https://www.rferl.org/a/montenegro-seeks-stare-down-fancy-bear-ahead-election/29
 http://www.cyberdefensemagazine.com/pawn-storm-used-a-new-flash-zero-day-in-attacks-on-the-nato-the-white-house/
 
 https://www.businesswire.com/news/home/20180309005050/en/
+
+http://it-online.co.za/2018/03/14/sofacy-shifts-focus-to-include-far-east/
