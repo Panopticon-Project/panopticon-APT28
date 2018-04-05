@@ -325,16 +325,34 @@ mountainsgide[.com|185.86.150.244 Domain|IP DealersChoice C&C (now taken down)
 
 contentdeliverysrv[.net|142.91.104.106 Domain|IP DealersChoice C&C (now taken down)
 
-space-delivery[.com|86.106.131.141 Domain|IP APT28 uploader C&C
+space-delivery[.com|86.106.131.141 Domain|IP APT28 uploader C&C ] closing off the underlining
+
+
+http://www.bbc.com/news/technology-42056555
+23 November 2017
+echnical and financial records from Crookservers seen by the BBC suggest Fancy Bear had access to significant funds and made use of online financial services, some of which were later closed in anti-money laundering operations.
+Over three years, Fancy Bear rented computers through Crookservers, covering its tracks using bogus identities, virtual private networks and hard-to-trace payment systems.
+One communication shows one hacker, using the pseudonym Roman Brecesku, had complained that his server had been "cracked".
+The server used to control the malware was hired through Crookservers by a hacker using the pseudonym Nikolay Mladenov who paid using Bitcoin and Perfect Money, according to records seen by the BBC.
+he hacker used the server until June 2015, when it was deleted at Crookservers's request following media reports of the attack.
+This server's IP address also appears in malware used to target some attendees at the Farnborough air show in 2014.
+Fancy Bear malware used to attack a UK TV station and the DNC also contained this IP address, although the server was no longer in Fancy Bear's control when these attacks occurred. - so someone else had the malware??
+A financial account used by Mladenov was also used by another hacker, operating under the pseudonym Klaus Werner, to hire more computers through Crookservers.
+One server hired by Werner received "redirected" traffic from a legitimate Nigerian government website, according to Secureworks analysis.
+The financial account used by Mladenov and Werner was used by Fancy Bear hackers - including two using the names Bruno Labrousse and Roman Brecesku - to hire other servers from Crookservers.
+One server and the email address used to hire it seem to have links to "advanced espionage" malware used to target iOS devices.
+The malware was capable of turning on voice recording and stealing text messages.
+Another email used to hire servers can be linked to an attack against Bulgaria's State Agency for National Security.
+But there are eight dedicated servers tied to the same financial information, whose use is unknown - suggesting there may be other Fancy Bear attacks that have not been publicly disclosed.
+Fancy Bear spent at least $6,000 (£4,534) with Crookservers via a variety of services that offered an extra level of anonymity.
+They included Bitcoin, Liberty Reserve and Perfect Money. Liberty Reserve was later closed after an international money laundering investigation.
+The BBC asked a UK company called Elliptic, which specialises in identifying Bitcoin-related "illicit activity", to analyse Fancy Bear's Bitcoin payments.
+Lead investigator Tom Robinson said his team had identified the wallet that had been the source of these funds. He said the bitcoins it contained were "worth around $100,000".
+Elliptic traced the source of some of the funds in that wallet to the digital currency exchange BTC-e.
+In July, BTC-e was closed by the US authorities and its Russian alleged founder arrested in Greece accused of money laundering.
+Crookservers closed on 10 October. 
 
 ## Links
-
-
-https://www.tripwire.com/state-of-security/security-data-protection/microsoft-advisory-office-dde-malware/
-
-https://www.wired.com/story/russia-fancy-bear-hackers-microsoft-office-flaw-and-nyc-terrorism-fears/?mbid=nl_110817_daily_list1_p3
-
-https://www.bleepingcomputer.com/news/security/russian-cyberspies-carry-out-the-silliest-cyber-espionage-campaign-of-the-year/
 
 http://www.bbc.com/news/technology-42056555
 
