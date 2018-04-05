@@ -369,10 +369,6 @@ https://www.facebook.com/FancyBearsHackTeam1/ - appears to be taken down
 
 https://twitter.com/FancyBears
 
-https://www.darkreading.com/attacks-breaches/russias-fancy-bear-apt-group-gets-more-dangerous/d/d-id/1330702
-
-http://www.securityweek.com/dhs-uses-cyber-kill-chain-analyze-russia-linked-election-hacks
-
 http://www.securityweek.com/xtunnel-malware-specifically-built-dnc-hack-report
 
 http://www.securityweek.com/russian-cyberspies-use-new-mac-malware-steal-data
