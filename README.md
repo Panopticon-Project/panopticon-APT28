@@ -310,7 +310,22 @@ Targeting data for this campaign is limited but some emails were sent to foreign
 As we examined the document exploitation chain, we found that DealersChoice.B [2], the attack framework that the document uses, is now also exploiting CVE-2017-11292, a Flash vulnerability that can lead to arbitrary code execution across Windows, Mac OS, Linux, and Chrome OS systems. The vulnerability was announced and patched on Monday, October 16 [1]. At that time Kaspersky attributed the exploit use to the BlackOasis APT group, which is distinct from APT28.
 Thus, while this exploit is no longer a zero-day, this is only the second known campaign utilizing it reported in public. APT28 burned their CVE-2017-0262 EPS 0-day in a similar fashion in April after Microsoft pushed an EPS exploit mitigation, which significantly reduced the impact of this exploit. [3]
 The document “World War 3.docx” contacts DealersChoice.B, APT28’s attack framework that allows loading exploit code on-demand from a command and control (C&C) server. DealersChoice has previously been used to exploit a variety of Flash vulnerabilities, including CVE-2015-7645, CVE-2016-1019, CVE-2016-4117, and CVE-2016-7855 via embedded objects in crafted Microsoft Word documents.
+This malicious document embeds the same Flash object twice in an ActiveX control for an unknown reason, although this is likely an operational mistake. The Flash files work in the same manner as the last known attack using this tool: the embedded Flash decompresses a second Flash object that handles the communication with the exploit delivery server. The only difference is that this second Flash object is no longer stored encrypted. There are other signs that this campaign was devised hastily: for example, the actors did not change the decryption algorithm constants as they have in the past. These particular constants were already used in a late December 2016 campaign. Each document uses a different domain for victim exploitation, while the communication protocol with the server stayed the same as well.
+We performed testing and found exploitation to be successful on:
+Windows 7 with Flash 27.0.0.159 and Microsoft Office 2013
+Windows 10 build 1607 with Flash 27.0.0.130 and Microsoft Office 2013
+At this point, despite the potential impact across operating systems of this particular Flash vulnerability, Mac OS does not appear to be targeted by this campaign. Users running 64-bit versions of Microsoft Office 2016 and Windows 10 RS3 should be protected against this exploit as well.
+25f983961eef6751e53a72c96d35448f8b413edf727501d0990f763b8c5e900b sha256 Decoy/Exploit Document
 
+416467f8975036bb06c2b5fca4daeb900ff5f25833d3cdb46958f0f0f26bec82 sha256 APT28 Uploader Variant
+
+blackpartshare[.com|185.86.150.244 Domain|IP DealersChoice C&C (now taken down)
+
+mountainsgide[.com|185.86.150.244 Domain|IP DealersChoice C&C (now taken down)
+
+contentdeliverysrv[.net|142.91.104.106 Domain|IP DealersChoice C&C (now taken down)
+
+space-delivery[.com|86.106.131.141 Domain|IP APT28 uploader C&C
 
 ## Links
 
@@ -410,3 +425,11 @@ http://www.cyberdefensemagazine.com/pawn-storm-used-a-new-flash-zero-day-in-atta
 https://www.businesswire.com/news/home/20180309005050/en/
 
 http://it-online.co.za/2018/03/14/sofacy-shifts-focus-to-include-far-east/
+
+https://securelist.com/blackoasis-apt-and-new-targeted-attacks-leveraging-zero-day-exploit/82732/
+
+[2] https://researchcenter.paloaltonetworks.com/2016/12/unit42-let-ride-sofacy-groups-dealerschoice-attacks-continue/
+
+[3] https://www.fireeye.com/blog/threat-research/2017/05/eps-processing-zero-days.html
+
+[4] https://www.welivesecurity.com/wp-content/uploads/2016/10/eset-sednit-part1.pdf
