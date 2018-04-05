@@ -352,11 +352,16 @@ Elliptic traced the source of some of the funds in that wallet to the digital cu
 In July, BTC-e was closed by the US authorities and its Russian alleged founder arrested in Greece accused of money laundering.
 Crookservers closed on 10 October. 
 
+https://www.darkreading.com/attacks-breaches/russias-fancy-bear-apt-group-gets-more-dangerous/d/d-id/1330702
+12/21/2017
+The modular backdoor has been a central component of Fancy Bear's campaigns for several years. Initial versions of the tool were designed to break into Windows and Linux systems. But it has been updated in the past two years to include support for iOS, Android, and, since the beginning of this year, OS X.
+The fourth and latest version of the malware comes with new techniques for obfuscating strings and all run-time type information. The techniques, according to ESET, have significantly improved the malware's encryption abilities. The Fancy Bear/Sednit group also has upgraded some of the code used for command and control (C&C) purposes and added a new domain generation algorithm (DGA) feature for quickly creating fallback C&C domains.
+In addition to the encryption and DGA, Fancy Bear also has some internal improvements such as new commands that can be used for hiding malware configuration data and other data on a target system. The authors of the malware have redesigned and refactored some existing components so it has become harder to recognize previously discovered mechanisms. Xagent also now has the ability to take screenshots of the target's desktop.
+It has largely stopped using Sedkit, an exploit kit used in numerous previous attacks, and has increasingly begun using a platform called DealersChoice to initially breach systems.
+DealersChoice, according to ESET, can generate documents with embedded Adobe Flash Player exploits. One version of the platform is designed to first check which version of Flash Player a target system might be running and then exploit it. Another variant first contacts a C&C server and then deliver a selected Flash exploit.
+Like the previous Sedkit exploit kit, DealersChoice is designed to scour international news stories and include references to relevant ones in the malicious emails it generates and sends to potential targets.
+
 ## Links
-
-http://www.bbc.com/news/technology-42056555
-
-https://threatpost.com/latest-sofacy-campaign-targeting-security-researchers/128576/
 
 https://fancybear.net/ - their site...
 
@@ -451,3 +456,5 @@ https://securelist.com/blackoasis-apt-and-new-targeted-attacks-leveraging-zero-d
 [3] https://www.fireeye.com/blog/threat-research/2017/05/eps-processing-zero-days.html
 
 [4] https://www.welivesecurity.com/wp-content/uploads/2016/10/eset-sednit-part1.pdf
+
+https://www.welivesecurity.com/2017/12/21/sednit-update-fancy-bear-spent-year/
