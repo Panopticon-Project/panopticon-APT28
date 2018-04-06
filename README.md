@@ -568,6 +568,7 @@ fd39d2837b30e7233bc54598ff51bdc2f8c418fa5b94dea2cadb24cf40f395e5	FANCY BEAR	SHA2
 45[.]32[.]129[.]185:443	FANCY BEAR	C2	X-Tunnel implant C2
 23[.]227[.]196[.]217:443	FANCY BEAR	C2	X-Tunnel implant C2
 
+https://www.welivesecurity.com/2016/10/25/lifting-lid-sednit-closer-look-software-uses/
 ## Links
 
 https://fancybear.net/ - their site...
