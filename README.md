@@ -563,7 +563,7 @@ https://twitter.com/FancyBears
 
 
 
-https://netzpolitik.org/2015/digital-attack-on-german-parliament-investigative-report-on-the-hack-of-the-left-party-infrastructure-in-bundestag/
+
 
 https://www.crowdstrike.com/blog/bears-midst-intrusion-democratic-national-committee/
 
@@ -670,3 +670,12 @@ http://pwc.blogs.com/cyber_security_updates/2014/12/apt28-sofacy-so-funny.html
 
 https://www.prnewswire.com/news-releases/root9b-uncovers-planned-sofacy-cyber-attack-targeting-several-international-and-domestic-financial-institutions-300081634.html and read https://krebsonsecurity.com/2015/05/security-firm-redefines-apt-african-phishing-threat/
 
+https://apnews.com/3bca5267d4544508bb523fa0db462cb2?utm_campaign=SocialFlow&utm_source=Twitter&utm_medium=AP
+
+https://www.wired.co.uk/article/dnc-hack-proof-russia-democrats
+
+https://www.nytimes.com/2016/12/13/us/politics/russia-hack-election-dnc.html?_r=0
+
+https://www.washingtonpost.com/world/national-security/cyber-researchers-confirm-russian-government-hack-of-democratic-national-committee/2016/06/20/e7375bc0-3719-11e6-9ccd-d6005beac8b3_story.html?utm_term=.2e520c62b2cb
+
+https://www.secureworks.com/blog/russian-threat-group-targets-clinton-campaign
