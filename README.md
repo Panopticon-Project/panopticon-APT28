@@ -550,6 +550,24 @@ If connections to the C&C are blocked or terminated through a firewall, the arti
 The address, 176.31.112.10, is a dedicated server provided by the French OVH hosting company, but is apparently operated by an offshore secure hosting company called CrookServers.com and seemingly located in Pakistan
 By researching historical data relevant to C&C 176.31.112.10, we discovered that on February 16th 2015, the server was sharing an SSL certificate with another IP address allocated to CrookServers and also hosted at OVH: „213.251.187.145“.
 More importantly, the IP address this certificate was shared with – 213.251.187.145 – was previously identified as used by Sofacy Group for phishing attacks against Albanian government institutions by registering the domain „qov.al“ (notice, the letter „q“ instead of „g“) and creating realistic subdomains to lure victims into visiting. The domain was active on the IP 213.251.187.145 from July 2014 up until March 2015.
+
+https://www.crowdstrike.com/blog/bears-midst-intrusion-democratic-national-committee/
+This adversary has a wide range of implants at their disposal, which have been developed over the course of many years and include Sofacy, X-Agent, X-Tunnel, WinIDS, Foozer and DownRange droppers, This group is known for its technique of registering domains that closely resemble domains of legitimate organizations they plan to target. Afterwards, they establish phishing sites on these domains that spoof the look and feel of the victim’s web-based email services in order to steal their credentials
+At DNC, COZY BEAR intrusion has been identified going back to summer of 2015, while FANCY BEAR separately breached the network in April 2016. 
+FANCY BEAR adversary used different tradecraft, deploying X-Agent malware with capabilities to do remote command execution, file transmission and keylogging. It was executed via rundll32 commands such as:
+rundll32.exe “C:\Windows\twain_64.dll”
+In addition, FANCY BEAR’s X-Tunnel network tunneling tool, which facilitates connections to NAT-ed environments, was used to also execute remote commands. Both tools were deployed via RemCOM, an open-source replacement for PsExec available from GitHub. They also engaged in a number of anti-forensic analysis measures, such as periodic event log clearing (via wevtutil cl System and wevtutil cl Security commands) and resetting timestamps of files.
+fd39d2837b30e7233bc54598ff51bdc2f8c418fa5b94dea2cadb24cf40f395e5	FANCY BEAR	SHA256	twain_64.dll
+(64-bit X-Agent implant)
+
+4845761c9bed0563d0aa83613311191e075a9b58861e80392914d61a21bad976	FANCY BEAR	SHA256	VmUpgradeHelper.exe (X-Tunnel implant)
+40ae43b7d6c413becc92b07076fa128b875c8dbb4da7c036639eccf5a9fc784f	FANCY BEAR	SHA256	VmUpgradeHelper.exe
+(X-Tunnel implant)
+
+185[.]86[.]148[.]227:443	FANCY BEAR	C2	X-Agent implant C2
+45[.]32[.]129[.]185:443	FANCY BEAR	C2	X-Tunnel implant C2
+23[.]227[.]196[.]217:443	FANCY BEAR	C2	X-Tunnel implant C2
+
 ## Links
 
 https://fancybear.net/ - their site...
@@ -559,13 +577,6 @@ https://www.facebook.com/FancyBearsHackTeam1/ - appears to be taken down
 https://twitter.com/FancyBears
 
 
-
-
-
-
-
-
-https://www.crowdstrike.com/blog/bears-midst-intrusion-democratic-national-committee/
 
 https://www.welivesecurity.com/2016/10/25/lifting-lid-sednit-closer-look-software-uses/
 
@@ -679,3 +690,5 @@ https://www.nytimes.com/2016/12/13/us/politics/russia-hack-election-dnc.html?_r=
 https://www.washingtonpost.com/world/national-security/cyber-researchers-confirm-russian-government-hack-of-democratic-national-committee/2016/06/20/e7375bc0-3719-11e6-9ccd-d6005beac8b3_story.html?utm_term=.2e520c62b2cb
 
 https://www.secureworks.com/blog/russian-threat-group-targets-clinton-campaign
+
+https://www.threatconnect.com/blog/tapping-into-democratic-national-committee/
