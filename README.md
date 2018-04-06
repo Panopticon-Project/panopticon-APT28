@@ -473,6 +473,83 @@ showitem[.]lt	213.252.247.159
 uploadsforyou[.]com	185.25.50.144
 wintwinbtc[.]com	185.25.48.27
 
+https://www.sans.org/summit-archives/file/summit-archive-1492179725.pdf
+176.31.112.10
+213.251.187.145
+5.56.133.170
+172.245.45.27
+176.31.96.178
+95.215.46.27
+46.183.216.209
+81.17.30.29
+94.242.224.172
+131.72.136.165
+80.255.10.236
+167.114.214.63
+80.255.3.93
+192.95.12.5
+204.145.94.227
+5.56.133.42
+130.255.184.196
+45.32.129.185
+23.227.196.217
+104.156.245.207
+45.32.91.1
+109.236.93.138
+89.45.67.12
+5.56.133.46
+89.238.132.210
+5.56.133.87
+185.86.151.180
+89.34.111.119
+92.114.92.102
+62.113.232.196
+95.215.44.38
+185.25.50.117
+86.105.1.133
+86.105.1.136
+185.61.148.54
+94.177.12.74
+94.177.12.157
+185.86.149.60
+
+https://netzpolitik.org/2015/digital-attack-on-german-parliament-investigative-report-on-the-hack-of-the-left-party-infrastructure-in-bundestag/
+19.06.2015
+there's questions over some of this as the analysis of XTunnel doesn't talk of all the additional functionality others do, but check dates as Xtunnel could have been updated. Although while quoting Krebs around inaccuracies in other research, he says that research has the attribution correct where Krebs seems to think it's completely off
+
+The first artifact – identified across this report as Artifact #1 – has the following attributes:
+
+Name	winexesvc.exe
+Size	23552
+MD5	77e7fb6b56c3ece4ef4e93b6dc608be0
+SHA1	f46f84e53263a33e266aae520cb2c1bd0a73354e
+SHA256	5130f600cd9a9cdc82d4bad938b20cbd2f699aadb76e7f3f1a93602330d9997d
+The second artifact – identified across this report as Artifact #2 – -has the following attributes:
+
+Name	svchost.exe.exe
+Size	1062912
+MD5	5e70a5c47c6b59dae7faf0f2d62b28b3
+SHA1	cdeea936331fcdd8158c876e9d23539f8976c305
+SHA256	730a0e3daf0b54f065bdd2ca427fbe10e8d4e28646a5dc40cbcfb15e1702ed9a
+Compile Time	2015-04-22 10:49:54
+
+Artifact #1 was retrieved from a File Server operated by Die Linke. The file is a 64bit-compatible compiled binary of the open source utility Winexe. Winexe is software similar to the more popular PSExec and is designed to allow system administrators to execute commands on remote servers. While commercial solutions like Symantec pcAnywhere provide a larger feature-set, Winexe is lightweight, and doesn’t require any installation or configuration. One of the reasons Winexe is preferred over PSExec, is that it provides a Linux client, while PSExec doesn’t.
+Attackers are making growing use of utilities like Winexe and PSExec to perform lateral movement across compromised networks. Besides providing the ability to execute arbitrary commands on the target system, these utilities normally don’t raise suspicion as they are commonly whitelisted by Antivirus and other commercial security software.
+Winexe acts as a Windows service that can be configured to automatically start at boot and silently wait for incoming commands over a named pipe. Named pipes are a Windows inter-process communication method. Through named pipes, processes are able to communicate and exchange data even over a network. In the case of Artifact #1, the name of the pipe is „ahexec“, computers over the network could access the pipe server by simply opening a file handle on „\ServerNamepipeahexec“.
+Once connected to the pipe, a user or a program can easily provide information required to execute command (just as they would normally through a command-line). The provided information is then passed to a „CreateProcessAsUserA“ call and the specified command is executed.
+Once inside the network, Artifact #1 can be enough for the attacker to download or create additional scripts, execute commands and exfiltrate data (for example, simply through ftp). It is plausible that Artifact #1 could be present on other servers under different names, although it is also likely that the attacker only left it on servers to which they required maintainenance of persistent access.
+
+Artifact #2 was recovered from the Admin Controller operated by Die Linke. This is custom malware, which despite large file size (1,1 MB), provides limited functionality. Artifact #2 operates as a backchannel for the attacker to maintain a foothold inside the compromised network. The properties of the artifact show that the same authors of the malware seem to have called it „Xtunnel“. As the same name suggests, the artifact appears in fact to act as a tunnel for the attacker to remotely access the internal network and maintain persistence.
+The artifact is dependent on a working network connection in order to function properly. In case connectivity can’t be established, the process will lock in an endless loop as shown in the behavioral schema below:
+After initialization, the artifact will attempt to establish a connection by creating a socket. In case of failure, it will sleep for three seconds and try again. The authors of the malware didn’t appear to have spent any effort in concealing indicators or obfuscating code – the IP address with which it tries to communicate is hardcoded in clear-text inside the binary. We can observe below, the procedure through which the artifact attempts to establish a connection with the IP address „176.31.112.10“:
+This specific IP address is a critical piece of information that enables us to connect this attack to a spree of previous targeted campaigns. The details of this attribution is explained in a dedicated section below. We will refer to this IP address as „Command & Control“ (or „C&C“).
+The artifact is able of receiving multiple arguments, including -Si, -Sp, -Up, -Pp, -Pi and -SSL. Following are the beaconing packets the artifact will send to Command & Control:
+If the argument -SSL is given through command-line to the artifact, these beacons will be encapsulated in an SSL connection and a proper TLS handshake will be initiated with the C&C.
+Interestingly, the artifact bundles a copy of OpenSSL 1.0.1e, from February 2013, which causes the unusually large size of the binary. More importantly, the Command & Control server (176.31.112.10) also appears to be using an outdated version of OpenSSL and be vulnerable to Heartbleed attacks. While unlikely, it is worth considering that the same C&C server might have been the subject of 3rd-party attacks due to this vulnerability.
+If connections to the C&C are blocked or terminated through a firewall, the artifact will be inhibited, as it doesn’t seem to have any fallback protocol. Additionally, since it does not execute any other functionality autonomously, it would no longer be a direct threat.
+The address, 176.31.112.10, is a dedicated server provided by the French OVH hosting company, but is apparently operated by an offshore secure hosting company called CrookServers.com and seemingly located in Pakistan
+By researching historical data relevant to C&C 176.31.112.10, we discovered that on February 16th 2015, the server was sharing an SSL certificate with another IP address allocated to CrookServers and also hosted at OVH: „213.251.187.145“.
+More importantly, the IP address this certificate was shared with – 213.251.187.145 – was previously identified as used by Sofacy Group for phishing attacks against Albanian government institutions by registering the domain „qov.al“ (notice, the letter „q“ instead of „g“) and creating realistic subdomains to lure victims into visiting. The domain was active on the IP 213.251.187.145 from July 2014 up until March 2015.
 ## Links
 
 https://fancybear.net/ - their site...
@@ -483,9 +560,8 @@ https://twitter.com/FancyBears
 
 
 
-https://www.threatconnect.com/blog/finding-nemohost-fancy-bear-infrastructure/
 
-https://www.sans.org/summit-archives/file/summit-archive-1492179725.pdf
+
 
 https://netzpolitik.org/2015/digital-attack-on-german-parliament-investigative-report-on-the-hack-of-the-left-party-infrastructure-in-bundestag/
 
@@ -585,3 +661,12 @@ https://threatreconblog.com/2017/02/03/apt28-malicious-document/
 https://www.virustotal.com/en/file/e2a850aeffc9a466c77ca3e39fd3ee4f74d593583666aea5b014aa6c50ca7af8/analysis/
 
 https://www.virustotal.com/en/file/4b011c208f8779a76bed9cc0796f60c3c3da22e5e95365cc36824af62b960412/analysis/
+
+https://netzpolitik.org/2015/digital-attack-on-german-parliament-investigative-report-on-the-hack-of-the-left-party-infrastructure-in-bundestag/
+
+https://www.welivesecurity.com/2016/10/25/lifting-lid-sednit-closer-look-software-uses/
+
+http://pwc.blogs.com/cyber_security_updates/2014/12/apt28-sofacy-so-funny.html
+
+https://www.prnewswire.com/news-releases/root9b-uncovers-planned-sofacy-cyber-attack-targeting-several-international-and-domestic-financial-institutions-300081634.html and read https://krebsonsecurity.com/2015/05/security-firm-redefines-apt-african-phishing-threat/
+
