@@ -361,6 +361,118 @@ It has largely stopped using Sedkit, an exploit kit used in numerous previous at
 DealersChoice, according to ESET, can generate documents with embedded Adobe Flash Player exploits. One version of the platform is designed to first check which version of Flash Player a target system might be running and then exploit it. Another variant first contacts a C&C server and then deliver a selected Flash exploit.
 Like the previous Sedkit exploit kit, DealersChoice is designed to scour international news stories and include references to relevant ones in the malicious emails it generates and sends to potential targets.
 
+https://www.securityweek.com/xtunnel-malware-specifically-built-dnc-hack-report
+The XTunnel malware that was used by Russian APT threat actor Fancy Bear to penetrate the Democrat National Committee (DNC) network was specifically designed to work against this target, Invincea researchers say.
+The attack was carried out in April this year, but was the second time a Russian threat actor targeted DNC, after another group going by the name of Cozy Bear managed to penetrate the network in the summer of 2015. The incidents were analyzed by Crowdstrike, after DNC employees started receiving alerts from Yahoo regarding their potential account compromises.
+The researchers discovered that the Fancy Bear threat actor used the XTunnel malware for compromise purposes. After taking a closer look at the malware, Invincea discovered that the malware didn’t cluster with other known threats and says that it was likely a “purpose-built original piece of code” meant to target the DNC network specifically.
+As it turns out, the XTunnel tool has several capabilities that allowed it to easily compromise the targeted network, including VPN-style capabilities and the use of encryption (it exchanges SSH keys, uses private encryption keys, compresses and decompresses data, etc.). The malware also supports access to locally stored passwords, and can access the LDAP server, researchers discovered.
+What’s more, the threat is modular, meaning that it can download additional files when needed, and can also probe the network for open ports, PING hosts, and send and receive emails. The malware has many other capabilities, some of which are shared by legitimate programs, Invincea reveals.
+Some of the most important functions of the tool, however, include the ability “to hook into system drivers, access the local LDAP server, access local passwords, use SSH, OpenSSL, search and replace local files, and of course be able to maintain a persistent connection to a pre-specified IP address, even if the host is behind a NATed firewall,” Invincea’s Pat Belcher explains.
+As if these abilities weren’t enough, the threat was also found to be able to monitor keyboard and mouse movements, and even to access webcams and USB drives. “That is a lot of capabilities packed into a file that is less than 2 MB in size,” Belcher notes.
+Another interesting aspect of XTunnel is that its code isn’t obfuscated, as most modern malware employs this technique to make analysis challenging. This piece of malware contains strings of code that appear to be transparently showing exactly what the binary is intended to do, “as if it were originally developed to be an open source tool to provide encrypted tunnel access to internet hosts,” the security researcher says.
+The researchers also discovered that the hackers used a very old but reliable network module –associated with softphone and VoIP applications over a decade ago – to maintain a fully encrypted, end-to-end Remote Access Trojan (RAT)
+
+https://www.invincea.com/2016/07/tunnel-of-gov-dnc-hack-and-the-russian-xtunnel/
+Fancy Bear XTunnel binary, which posed as a file called “vmupgradehelper.exe.”  Its MD5 is 9e7053a4b6c9081220a694ec93211b4e
+Cosybear also uses XTunnel
+Invincea uses its DARPA-funded deep learning to automatically analyze and extract known capabilities of malware based on matching strings to StackOverflow definitions, and where possible, cluster them into related families of malware based on similarities of design and function.  The XTunnel malware used by Russian threat actor Fancy Bear did not cluster with other known malware, meaning this binary was likely a purpose-built original piece of code to be used specifically against the DNC.
+XTunnel Origins
+Back in 2004, in the heyday of VoIP and soft phones, a company called Xten created a family of SIP products based on their XTunnel protocol.  Softphones and VoIP applications couldn’t reliably operate inside of a firewalled environment that used Network Address Translation (NAT) without having to open up huge port ranges through the firewall.  Requests for such port changes drove Security Administrators absolutely nutty.
+The solution was to use a new protocol where an inside node would contact an external broker node and establish a two-way connection over whatever available port the VoIP/SIP software could find.  I even remember seeing utilities like Skype portscan the inside NIC of a firewall looking for a way out.  If it could get out via port 25 SMTP, it would take it.  Ditto for AOL messenger and similar utilities.
+
+The XTunnel Project became closed source and proprietary intellectual property when Xten was absorbed into a parent company during the years that the VoIP market began consolidating.  There are a few independent developers that are still using the pieces of the XTunnel platform for network encryption.  For instance, below is a screenshot of the XTunnel PortMap client developed in Chinese.  This module does have some similar capabilities to the Russian binary above when viewed using Invincea’s Deep Learning. It also shares the attributes of clean transparent listing of strings between the Russian and Chinese version of XTunnel.
+The Fancy Bear threat actors used, by today’s standards, a very old, but still reliable network module used for softphone and video and VoIP capabilities to maintain a fully encrypted, end-to-end Remote Access Trojan (RAT).  Perhaps the only way the DNC could have detected the network activity associated with the Xtunnel is to have caught it “port knocking” on the inside of the firewall.  But with so many organizations running a firewall configuration allowing any inside host outbound without restrictions, this would have been almost impossible to detect with logs only.  Even if they had restricted outbound access XTunnel could have used other protocols such as ICMP or UDP to find its way outbound to the Russian command and control server.
+The Invincea Deep Learning analysis neither supports nor refutes the Russian origins of the XTunnel binary.  The binary appears to be a repurposed open source tool that was used for nefarious purposes within the DNC.
+
+Previous reports from Crowdstrike and others note that the XTunnel tool was used to maintain network connectivity.  Whether the XTunnel tool was used for additional purposes as its capabilities suggest is unknown, but it had the potential to support a full range of additional activity.
+
+SHA256 Hashes shown:
+
+VMUgradehelper:  4845761c9bed0563d0aa83613311191e075a9b58861e80392914d61a21bad976
+XTunnel Port Mapper:  b81b10bdf4f29347979ea8a1715cbfc560e3452ba9fffcc33cd19a3dc47083a4
+
+https://www.securityweek.com/russian-cyberspies-use-new-mac-malware-steal-data
+APT28 has been known for using an OS X downloader named Komplex, and researchers from Bitdefender and Palo Alto Networks have now come across another Mac malware believed to be part of the group’s arsenal.
+XAgent, or X-Agent, is a Trojan used by APT28 in attacks targeting Windows systems. A recently analyzed campaign aimed at Ukraine indicates that the group may have also developed an Android version of XAgent.
+Bitdefender and Palo Alto Networks have also identified a macOS version of XAgent, which they believe is downloaded to targeted systems by the Komplex downloader. Both security firms determined, based on binary strings, that Komplex and XAgent were likely created by the same developer.
+Once it infects a Mac computer, the malware, which its authors call XAgentOSX, contacts a command and control (C&C) server and waits for instructions. C&C communications are similar to the ones used by the Windows version of XAgent.
+XAgentOSX can collect information about the system, running processes and installed applications, it can download and upload files, execute commands and files, and take screenshots.
+The malware also looks for backup files from an iPhone or iPad, which it can exfiltrate using one of the available commands. XAgentOSX can also log keystrokes, allowing the attackers to obtain the victim’s credentials.
+Bitdefender told SecurityWeek that it does not have any information on XAgentOSX infections and targets, but the company believes the victims are hand-picked in an effort to prevent the exposure of malware samples.
+One of the actor’s favorite Linux tools is Fysbis, an unsophisticated yet efficient backdoor.
+
+https://www.threatconnect.com/blog/finding-nemohost-fancy-bear-infrastructure/
+n reviewing domains with registration consistencies to previously identified FANCY BEAR domains, we identified the domain unisecproper[.]org and included it in our ThreatConnect Intelligence source. This domain was registered using the email address le0nard0@mail[.]com, is hosted on a dedicated server at the IP 92.114.92.134, and uses a name server that has previously been associated with FANCY BEAR activity.
+In reviewing Censys for the 92.114.92.134 IP address, we identify that a web server on that IP currently uses the SSL certificate f27c4270b9b9291f465ba5962c36ce38f438377acff300b5c82b3b145f0c9e94
+Reviewing this hash in Censys identifies the SHA1 as a1833c32d5f61d6ef9d1bb0133585112069d770e. Cybersecurity researchers -- including Thomas Rid and Mark Parsons -- have identified that this SSL certificate has been associated with FANCY BEAR activity, including operations targeting the DNC and German Parliament. This indicates that the unisecproper[.]org domain, which is the only one hosted at this IP, most likely is associated with FANCY BEAR activity.
+185.86.150.26
+5.135.199.31
+188.40.155.241 (static.241.155.40.188.clients.your-server.de)
+185.183.107.38
+179.43.128.218
+unisecproper[.]org	208.91.197.91	le0nard0@mail[.]com
+wmiapp[.]com	179.43.128.218	Private
+networkxc[.]net	185.183.107.38	bertfuhrmann@gmx[.]de
+ndsee[.]org	185.86.150.26	manuel.herez@centrum[.]cz
+neoderb[.]com	188.40.155.241	Private
+remnet[.]org	188.40.155.241	cameron_gordon@centrum[.]cz
+remotemanagesvc[.]net	188.40.155.241	Private
+netcorpscanprotect[.]com	94.177.12.157	ernesto.rivero@mail[.]com
+zpfgr[.]com	94.177.12.74	olavi_nieminen@suomi24[.]fi
+connectsmd[.]net	86.107.42.11	Private
+ckgob[.]com	88.99.21.169	luc_ma@iname[.]com
+the domains neoderb[.]com, wmiapp[.]com, and connectsmd[.]net, all initially used a nemohosts[.]com name server when they were first registered suggesting that these domains were registered through the Nemohosts reseller. A review of WHOIS history indicates that only about 160 domains have used nemohosts[.]com name servers, suggesting that it is a relatively small service. Shortly after they were registered, the three domains switched to using a topdns.com name server. 
+neoderb[.]com	188.40.155.241
+wmiapp[.]com	179.43.128.218
+connectsmd[.]net	86.107.42.11
+dmsclock[.]org	89.187.151.16
+systemfromcuriousmoment[.]com	185.86.150.188
+driverfordell[.]com	5.255.80.50
+hostsvcnet[.]com	185.94.190.199
+intelstatistics[.]com	5.135.199.10
+knightconsults[.]com	174.128.253.215
+lopback[.]com	185.86.150.151
+nethostnet[.]com	86.105.1.12
+perfect-remote-service[.]com	188.241.68.175
+probenet[.]eu	86.105.1.114
+remonitor[.]net	185.94.192.101
+societyatcuriousteacher[.]com	185.86.150.188
+spelns[.]com	89.44.103.18
+unitedprosoftcompany[.]org	95.153.31.197
+Three other domains -- ndsee[.]org, zpfgr[.]com, and networkxc[.]net -- all used similarly obscure name servers dns1.bacloud[.]com and dns1.laisvas[.]lt, which likely belong to the same organization operating out of Lithuania.
+ndsee[.]org	185.86.150.26
+zpfgr[.]com	94.177.12.74
+90update[.]com	213.252.244.105
+aljazeera-news[.]com	213.252.244.114
+ambcomission[.]com	185.25.51.38
+cryptokind[.]com	213.252.246.24
+deshcoin[.]com	185.25.48.249
+dochardproofing[.]com	185.25.51.173
+ebramka[.]info	185.25.50.156
+fes-auth[.]com	91.108.68.209
+hello76[.]com	185.64.105.7
+hostedopenfiles[.]net	185.25.50.93
+kiteim[.]org	5.255.80.68
+kremotevn[.]net	86.105.1.128
+lasarenas[.]lt	91.216.163.204
+lopback[.]com	185.86.150.151
+megauploadfiles[.]org	5.135.199.24
+nemaskalitnium[.]com	173.44.58.240
+networkfilehosting[.]com	213.252.247.167
+news-almasirah[.]net	213.252.244.115
+newsfromsource[.]com	91.216.163.224
+platnosci[.]biz	213.252.247.121
+postmarksmtp[.]com	185.25.51.120
+remsvc[.]net	91.108.68.180
+rhfcoin[.]com	91.216.163.229
+sa7efa[.]com	91.216.163.237
+searchbrain[.]net	91.216.163.203
+serbview[.]com	5.255.93.224
+startthedownload[.]com	213.252.247.168
+showitem[.]lt	213.252.247.159
+uploadsforyou[.]com	185.25.50.144
+wintwinbtc[.]com	185.25.48.27
+
 ## Links
 
 https://fancybear.net/ - their site...
@@ -369,9 +481,7 @@ https://www.facebook.com/FancyBearsHackTeam1/ - appears to be taken down
 
 https://twitter.com/FancyBears
 
-http://www.securityweek.com/xtunnel-malware-specifically-built-dnc-hack-report
 
-http://www.securityweek.com/russian-cyberspies-use-new-mac-malware-steal-data
 
 https://www.threatconnect.com/blog/finding-nemohost-fancy-bear-infrastructure/
 
@@ -454,3 +564,24 @@ https://securelist.com/blackoasis-apt-and-new-targeted-attacks-leveraging-zero-d
 [4] https://www.welivesecurity.com/wp-content/uploads/2016/10/eset-sednit-part1.pdf
 
 https://www.welivesecurity.com/2017/12/21/sednit-update-fancy-bear-spent-year/
+
+https://www.crowdstrike.com/blog/bears-midst-intrusion-democratic-national-committee/
+
+XTunnel capabilities
+https://cynomix.invincea.com/sample/f09780ba9eb7f7426f93126bc198292f5106424b
+
+https://www.securityweek.com/russia-used-android-malware-track-ukrainian-troops-report
+
+https://www.securityweek.com/fysbis-backdoor-preferred-pawn-storm-group-target-linux
+
+https://www.sans.org/summit-archives/file/summit-archive-1492179725.pdf
+
+https://twitter.com/RidT/status/752528393678225408
+
+http://malware.prevenity.com/2017/01/ataki-na-instytucje-rzadowe-grudzien.html
+
+https://threatreconblog.com/2017/02/03/apt28-malicious-document/
+
+https://www.virustotal.com/en/file/e2a850aeffc9a466c77ca3e39fd3ee4f74d593583666aea5b014aa6c50ca7af8/analysis/
+
+https://www.virustotal.com/en/file/4b011c208f8779a76bed9cc0796f60c3c3da22e5e95365cc36824af62b960412/analysis/
