@@ -695,3 +695,5 @@ https://www.secureworks.com/blog/russian-threat-group-targets-clinton-campaign
 https://www.threatconnect.com/blog/tapping-into-democratic-national-committee/
 
 http://www.itsecurityguru.org/2018/05/03/fancy-fancy-bear-lojack-anti-laptop-theft-tool-caught-phoning-home-kremlin/
+
+https://www.scmagazine.com/fancy-bear-likely-behind-malware-found-on-lojack-c2-domains/article/763102/
