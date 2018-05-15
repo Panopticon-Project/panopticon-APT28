@@ -699,3 +699,5 @@ http://www.itsecurityguru.org/2018/05/03/fancy-fancy-bear-lojack-anti-laptop-the
 https://www.scmagazine.com/fancy-bear-likely-behind-malware-found-on-lojack-c2-domains/article/763102/
 
 https://www.securityweek.com/researchers-dissect-tool-used-infamous-russian-hacker-group
+
+https://fancybear.net/pages/saga-about-doping.html
