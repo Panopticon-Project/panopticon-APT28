@@ -701,3 +701,7 @@ https://www.scmagazine.com/fancy-bear-likely-behind-malware-found-on-lojack-c2-d
 https://www.securityweek.com/researchers-dissect-tool-used-infamous-russian-hacker-group
 
 https://fancybear.net/pages/saga-about-doping.html
+
+https://www.wired.com/story/vpnfilter-router-malware-outbreak/?CNDID=50740756&mbid=nl_052418_daily_list1_p1
+
+https://blog.talosintelligence.com/2018/05/VPNFilter.html
