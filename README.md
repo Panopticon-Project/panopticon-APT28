@@ -707,3 +707,5 @@ https://www.wired.com/story/vpnfilter-router-malware-outbreak/?CNDID=50740756&mb
 https://blog.talosintelligence.com/2018/05/VPNFilter.html
 
 https://www.securityweek.com/russian-cyberspies-change-tactics-recent-campaign
+
+https://www.securityweek.com/vpnfilter-targets-more-devices-initially-thought
