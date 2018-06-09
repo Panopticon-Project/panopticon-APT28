@@ -705,3 +705,5 @@ https://fancybear.net/pages/saga-about-doping.html
 https://www.wired.com/story/vpnfilter-router-malware-outbreak/?CNDID=50740756&mbid=nl_052418_daily_list1_p1
 
 https://blog.talosintelligence.com/2018/05/VPNFilter.html
+
+https://www.securityweek.com/russian-cyberspies-change-tactics-recent-campaign
