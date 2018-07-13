@@ -713,3 +713,5 @@ https://www.securityweek.com/vpnfilter-targets-more-devices-initially-thought
 https://motherboard.vice.com/en_us/article/8xbnxp/mueller-indicts-12-russian-intelligence-officers-including-guccifer-20-for-hacking-democrats
 
 https://www.securityweek.com/breaking-12-russian-intelligence-officers-indicted-hacking-us-democrats
+
+https://www.securityweek.com/vpnfilter-malware-hits-critical-infrastructure-ukraine
