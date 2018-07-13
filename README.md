@@ -709,3 +709,5 @@ https://blog.talosintelligence.com/2018/05/VPNFilter.html
 https://www.securityweek.com/russian-cyberspies-change-tactics-recent-campaign
 
 https://www.securityweek.com/vpnfilter-targets-more-devices-initially-thought
+
+https://motherboard.vice.com/en_us/article/8xbnxp/mueller-indicts-12-russian-intelligence-officers-including-guccifer-20-for-hacking-democrats
