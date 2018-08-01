@@ -717,3 +717,5 @@ https://www.securityweek.com/breaking-12-russian-intelligence-officers-indicted-
 https://www.securityweek.com/vpnfilter-malware-hits-critical-infrastructure-ukraine
 
 https://www.wired.com/story/mueller-indictment-dnc-hack-russia-fancy-bear/?CNDID=53659400&mbid=nl_071318_daily_list1_p4
+
+https://www.securityweek.com/leaked-chats-show-alleged-russian-spy-seeking-hacking-tools
