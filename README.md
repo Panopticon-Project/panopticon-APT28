@@ -719,3 +719,5 @@ https://www.securityweek.com/vpnfilter-malware-hits-critical-infrastructure-ukra
 https://www.wired.com/story/mueller-indictment-dnc-hack-russia-fancy-bear/?CNDID=53659400&mbid=nl_071318_daily_list1_p4
 
 https://www.securityweek.com/leaked-chats-show-alleged-russian-spy-seeking-hacking-tools
+
+https://arstechnica.com/information-technology/2018/07/from-bitly-to-x-agent-how-gru-hackers-targeted-the-2016-presidential-election/
