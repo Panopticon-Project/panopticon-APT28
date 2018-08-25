@@ -721,3 +721,5 @@ https://www.wired.com/story/mueller-indictment-dnc-hack-russia-fancy-bear/?CNDID
 https://www.securityweek.com/leaked-chats-show-alleged-russian-spy-seeking-hacking-tools
 
 https://arstechnica.com/information-technology/2018/07/from-bitly-to-x-agent-how-gru-hackers-targeted-the-2016-presidential-election/
+
+https://www.securityweek.com/microsoft-disrupts-election-related-domains-used-russian-hackers
