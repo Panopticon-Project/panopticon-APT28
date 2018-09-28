@@ -725,3 +725,5 @@ https://arstechnica.com/information-technology/2018/07/from-bitly-to-x-agent-how
 https://www.securityweek.com/microsoft-disrupts-election-related-domains-used-russian-hackers
 
 https://www.securityweek.com/sacrilegious-spies-russians-tried-hacking-orthodox-clergy
+
+https://www.wired.com/story/fancy-bear-hackers-uefi-rootkit/?CNDID=53659400&mbid=nl_092818_daily_list1_p3
