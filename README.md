@@ -727,3 +727,7 @@ https://www.securityweek.com/microsoft-disrupts-election-related-domains-used-ru
 https://www.securityweek.com/sacrilegious-spies-russians-tried-hacking-orthodox-clergy
 
 https://www.wired.com/story/fancy-bear-hackers-uefi-rootkit/?CNDID=53659400&mbid=nl_092818_daily_list1_p3
+
+https://www.securityweek.com/russian-cyberspies-use-uefi-rootkit-attacks
+
+https://www.securityweek.com/new-vpnfilter-modules-reveal-extensive-capabilities
