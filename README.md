@@ -733,3 +733,5 @@ https://www.securityweek.com/russian-cyberspies-use-uefi-rootkit-attacks
 https://www.securityweek.com/new-vpnfilter-modules-reveal-extensive-capabilities
 
 https://www.securityweek.com/canada-says-it-was-targeted-russian-cyber-attacks
+
+https://www.securityweek.com/russian-state-sponsored-operations-begin-overlap-kaspersky
