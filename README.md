@@ -735,3 +735,5 @@ https://www.securityweek.com/new-vpnfilter-modules-reveal-extensive-capabilities
 https://www.securityweek.com/canada-says-it-was-targeted-russian-cyber-attacks
 
 https://www.securityweek.com/russian-state-sponsored-operations-begin-overlap-kaspersky
+
+https://www.symantec.com/blogs/election-security/apt28-espionage-military-government
