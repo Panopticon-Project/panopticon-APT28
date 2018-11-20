@@ -737,3 +737,5 @@ https://www.securityweek.com/canada-says-it-was-targeted-russian-cyber-attacks
 https://www.securityweek.com/russian-state-sponsored-operations-begin-overlap-kaspersky
 
 https://www.symantec.com/blogs/election-security/apt28-espionage-military-government
+
+https://www.wired.com/story/russia-fancy-bear-hackers-phishing/?
