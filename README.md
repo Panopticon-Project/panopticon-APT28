@@ -739,3 +739,5 @@ https://www.securityweek.com/russian-state-sponsored-operations-begin-overlap-ka
 https://www.symantec.com/blogs/election-security/apt28-espionage-military-government
 
 https://www.wired.com/story/russia-fancy-bear-hackers-phishing/?
+
+https://www.securityweek.com/infamous-russian-hacking-group-used-new-trojan-recent-attacks
