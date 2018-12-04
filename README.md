@@ -741,3 +741,5 @@ https://www.symantec.com/blogs/election-security/apt28-espionage-military-govern
 https://www.wired.com/story/russia-fancy-bear-hackers-phishing/?
 
 https://www.securityweek.com/infamous-russian-hacking-group-used-new-trojan-recent-attacks
+
+https://www.securityweek.com/russian-hackers-use-brexit-lures-recent-attacks
