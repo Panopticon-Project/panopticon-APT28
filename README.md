@@ -743,3 +743,5 @@ https://www.wired.com/story/russia-fancy-bear-hackers-phishing/?
 https://www.securityweek.com/infamous-russian-hacking-group-used-new-trojan-recent-attacks
 
 https://www.securityweek.com/russian-hackers-use-brexit-lures-recent-attacks
+
+https://www.securityweek.com/russia-linked-phishing-attacks-hit-government-agencies-four-continents
