@@ -747,3 +747,5 @@ https://www.securityweek.com/russian-hackers-use-brexit-lures-recent-attacks
 https://www.securityweek.com/russia-linked-phishing-attacks-hit-government-agencies-four-continents
 
 https://securelist.com/a-zebrocy-go-downloader/89419/?
+
+https://www.securityweek.com/dnc-russian-hackers-attacked-us-again-after-midterm-elections
