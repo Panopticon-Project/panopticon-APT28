@@ -749,3 +749,5 @@ https://www.securityweek.com/russia-linked-phishing-attacks-hit-government-agenc
 https://securelist.com/a-zebrocy-go-downloader/89419/?
 
 https://www.securityweek.com/dnc-russian-hackers-attacked-us-again-after-midterm-elections
+
+https://www.securityweek.com/link-found-between-greyenergy-and-zebrocy-attacks
