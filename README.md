@@ -751,3 +751,5 @@ https://securelist.com/a-zebrocy-go-downloader/89419/?
 https://www.securityweek.com/dnc-russian-hackers-attacked-us-again-after-midterm-elections
 
 https://www.securityweek.com/link-found-between-greyenergy-and-zebrocy-attacks
+
+https://app.threatconnect.com/auth/incident/incident.xhtml?incident=2092699414#/
