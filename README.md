@@ -757,3 +757,5 @@ https://app.threatconnect.com/auth/incident/incident.xhtml?incident=2092699414#/
 https://www.securityweek.com/microsoft-says-russian-hackers-targeted-democratic-institutions-europe
 
 https://emma.best/2019/03/20/the-russian-contractor-who-infiltrated-anonymous/
+
+https://www.securityweek.com/russian-hackers-target-european-governments-ahead-elections-fireeye
