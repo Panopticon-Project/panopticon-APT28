@@ -761,3 +761,5 @@ https://emma.best/2019/03/20/the-russian-contractor-who-infiltrated-anonymous/
 https://www.securityweek.com/russian-hackers-target-european-governments-ahead-elections-fireeye
 
 https://blog.talosintelligence.com/2019/05/one-year-later-vpnfilter-catastrophe.html
+
+https://www.zdnet.com/article/microsoft-russian-state-hackers-are-using-iot-devices-to-breach-enterprise-networks/
