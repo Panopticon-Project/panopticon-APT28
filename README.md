@@ -763,3 +763,5 @@ https://www.securityweek.com/russian-hackers-target-european-governments-ahead-e
 https://blog.talosintelligence.com/2019/05/one-year-later-vpnfilter-catastrophe.html
 
 https://www.zdnet.com/article/microsoft-russian-state-hackers-are-using-iot-devices-to-breach-enterprise-networks/
+
+https://www.darkreading.com/advanced-threats/fancy-bear-dons-plain-clothes-to-try-to-defeat-machine-learning/
