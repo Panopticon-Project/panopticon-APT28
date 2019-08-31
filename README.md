@@ -765,3 +765,5 @@ https://blog.talosintelligence.com/2019/05/one-year-later-vpnfilter-catastrophe.
 https://www.zdnet.com/article/microsoft-russian-state-hackers-are-using-iot-devices-to-breach-enterprise-networks/
 
 https://www.darkreading.com/advanced-threats/fancy-bear-dons-plain-clothes-to-try-to-defeat-machine-learning/
+
+https://www.darkreading.com/advanced-threats/fancy-bear-dons-plain-clothes-to-try-to-defeat-machine-learning/d/d-id/1335673
