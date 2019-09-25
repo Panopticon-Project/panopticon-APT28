@@ -767,3 +767,5 @@ https://www.zdnet.com/article/microsoft-russian-state-hackers-are-using-iot-devi
 https://www.darkreading.com/advanced-threats/fancy-bear-dons-plain-clothes-to-try-to-defeat-machine-learning/
 
 https://www.darkreading.com/advanced-threats/fancy-bear-dons-plain-clothes-to-try-to-defeat-machine-learning/d/d-id/1335673
+
+https://brica.de/alerts/alert/public/1278107/a-new-fancy-bear-backdoor-used-to-target-political-targets/
