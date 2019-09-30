@@ -769,3 +769,5 @@ https://www.darkreading.com/advanced-threats/fancy-bear-dons-plain-clothes-to-tr
 https://www.darkreading.com/advanced-threats/fancy-bear-dons-plain-clothes-to-try-to-defeat-machine-learning/d/d-id/1335673
 
 https://brica.de/alerts/alert/public/1278107/a-new-fancy-bear-backdoor-used-to-target-political-targets/
+
+https://www.cyberscoop.com/russia-zebrocy-eset/
