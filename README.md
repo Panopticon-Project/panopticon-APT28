@@ -771,3 +771,5 @@ https://www.darkreading.com/advanced-threats/fancy-bear-dons-plain-clothes-to-tr
 https://brica.de/alerts/alert/public/1278107/a-new-fancy-bear-backdoor-used-to-target-political-targets/
 
 https://www.cyberscoop.com/russia-zebrocy-eset/
+
+https://www.welivesecurity.com/2019/09/24/no-summer-vacations-zebrocy/
