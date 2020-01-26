@@ -777,3 +777,5 @@ https://www.welivesecurity.com/2019/09/24/no-summer-vacations-zebrocy/
 https://www.itsecuritynews.info/fancy-bear-targets-sporting-anti-doping-orgs-as-2020-olympics-loom/?utm_source=feedburner&utm_medium=email&utm_campaign=Feed%3A+ItSecurityNewsAggregated+%28IT+Security+News%29
 
 https://www.techworm.net/2019/10/russian-hacker-sports-microsoft.html
+
+https://www.cybersecurity-help.cz/blog/893.html?affChecked=1
