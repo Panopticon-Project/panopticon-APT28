@@ -781,3 +781,5 @@ https://www.techworm.net/2019/10/russian-hacker-sports-microsoft.html
 https://www.cybersecurity-help.cz/blog/893.html?affChecked=1
 
 https://twitter.com/ydklijnsma/status/1218599851669233666
+
+https://www.wired.com/story/us-blames-russia-gru-sweeping-cyberattacks-georgia/
