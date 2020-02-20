@@ -783,3 +783,7 @@ https://www.cybersecurity-help.cz/blog/893.html?affChecked=1
 https://twitter.com/ydklijnsma/status/1218599851669233666
 
 https://www.wired.com/story/us-blames-russia-gru-sweeping-cyberattacks-georgia/
+
+https://www.securityweek.com/phishing-campaign-targeting-ukrainian-firm-burisma-linked-russian-cyberspies
+
+https://www.securityweek.com/russia-hacked-ukrainian-gas-firm-center-trump-impeachment
