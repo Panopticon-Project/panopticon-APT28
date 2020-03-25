@@ -787,3 +787,5 @@ https://www.wired.com/story/us-blames-russia-gru-sweeping-cyberattacks-georgia/
 https://www.securityweek.com/phishing-campaign-targeting-ukrainian-firm-burisma-linked-russian-cyberspies
 
 https://www.securityweek.com/russia-hacked-ukrainian-gas-firm-center-trump-impeachment
+
+https://www.securityweek.com/russian-cyberspies-hacked-high-profile-email-accounts-phishing
