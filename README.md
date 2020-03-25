@@ -789,3 +789,5 @@ https://www.securityweek.com/phishing-campaign-targeting-ukrainian-firm-burisma-
 https://www.securityweek.com/russia-hacked-ukrainian-gas-firm-center-trump-impeachment
 
 https://www.securityweek.com/russian-cyberspies-hacked-high-profile-email-accounts-phishing
+
+https://www.trendmicro.com/vinfo/us/security/news/cyber-attacks/probing-pawn-storm-cyberespionage-campaign-through-scanning-credential-phishing-and-more
