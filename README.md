@@ -791,3 +791,5 @@ https://www.securityweek.com/russia-hacked-ukrainian-gas-firm-center-trump-impea
 https://www.securityweek.com/russian-cyberspies-hacked-high-profile-email-accounts-phishing
 
 https://www.trendmicro.com/vinfo/us/security/news/cyber-attacks/probing-pawn-storm-cyberespionage-campaign-through-scanning-credential-phishing-and-more
+
+https://www.zdnet.com/article/booz-allen-analyzed-200-russian-hacking-operations-to-better-understand-their-tactics/
