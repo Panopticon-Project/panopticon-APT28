@@ -795,3 +795,5 @@ https://www.trendmicro.com/vinfo/us/security/news/cyber-attacks/probing-pawn-sto
 https://www.zdnet.com/article/booz-allen-analyzed-200-russian-hacking-operations-to-better-understand-their-tactics/
 
 https://www.vkremez.com/2019/01/lets-learn-progression-of-apt28-autoit.html
+
+https://securelist.com/apt-trends-report-q1-2020/96826/
