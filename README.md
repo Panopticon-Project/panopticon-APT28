@@ -801,3 +801,5 @@ https://securelist.com/apt-trends-report-q1-2020/96826/
 https://www.zdnet.com/article/german-authorities-charge-russian-hacker-for-2015-bundestag-hack/
 
 https://www.cybersecurity-help.cz/blog/745.html
+
+https://arstechnica.com/information-technology/2019/10/russias-fancy-bear-hacking-group-targets-olympics-organizations-again/
