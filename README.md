@@ -803,3 +803,7 @@ https://www.zdnet.com/article/german-authorities-charge-russian-hacker-for-2015-
 https://www.cybersecurity-help.cz/blog/745.html
 
 https://arstechnica.com/information-technology/2019/10/russias-fancy-bear-hacking-group-targets-olympics-organizations-again/
+
+https://www.secureworks.com/research/threat-group-4127-targets-google-accounts
+
+https://apnews.com/3bca5267d4544508bb523fa0db462cb2
