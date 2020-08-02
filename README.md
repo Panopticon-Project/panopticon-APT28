@@ -809,3 +809,5 @@ https://www.secureworks.com/research/threat-group-4127-targets-google-accounts
 https://apnews.com/3bca5267d4544508bb523fa0db462cb2
 
 https://www.trendmicro.com/vinfo/us/security/news/cyber-attacks/espionage-cyber-propaganda-two-years-of-pawn-storm
+
+https://www.wired.com/story/russia-fancy-bear-us-hacking-campaign-government-energy/
