@@ -813,3 +813,5 @@ https://www.trendmicro.com/vinfo/us/security/news/cyber-attacks/espionage-cyber-
 https://www.wired.com/story/russia-fancy-bear-us-hacking-campaign-government-energy/
 
 https://www.cyberscoop.com/russian-military-intelligence-gru-hacking-drovorub-malware-fbi-nsa/
+
+https://www.wired.com/story/nsa-russian-hacking-revolte-tiktok-security-news
