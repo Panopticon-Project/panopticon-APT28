@@ -819,3 +819,5 @@ https://www.wired.com/story/nsa-russian-hacking-revolte-tiktok-security-news
 https://arstechnica.com/tech-policy/2020/09/russian-state-hackers-are-targeting-biden-and-trump-campaigns-msft-warns/
 
 https://www.securityweek.com/russian-military-hackers-targeted-credentials-hundreds-organizations-us-uk
+
+https://www.securityweek.com/russia-linked-spies-deliver-malware-dde-attack
