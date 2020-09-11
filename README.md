@@ -823,3 +823,5 @@ https://www.securityweek.com/russian-military-hackers-targeted-credentials-hundr
 https://www.securityweek.com/russia-linked-spies-deliver-malware-dde-attack
 
 https://www.securityweek.com/tech-firms-target-domains-used-russia-linked-threat-group
+
+https://www.bbc.com/news/technology-42056555
