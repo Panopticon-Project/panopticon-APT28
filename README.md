@@ -825,3 +825,5 @@ https://www.securityweek.com/russia-linked-spies-deliver-malware-dde-attack
 https://www.securityweek.com/tech-firms-target-domains-used-russia-linked-threat-group
 
 https://www.bbc.com/news/technology-42056555
+
+https://www.securityweek.com/xtunnel-malware-specifically-built-dnc-hack-report
