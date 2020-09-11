@@ -827,3 +827,5 @@ https://www.securityweek.com/tech-firms-target-domains-used-russia-linked-threat
 https://www.bbc.com/news/technology-42056555
 
 https://www.securityweek.com/xtunnel-malware-specifically-built-dnc-hack-report
+
+https://www.wired.co.uk/article/how-russian-hackers-work
