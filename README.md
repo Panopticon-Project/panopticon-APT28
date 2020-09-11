@@ -817,3 +817,5 @@ https://www.cyberscoop.com/russian-military-intelligence-gru-hacking-drovorub-ma
 https://www.wired.com/story/nsa-russian-hacking-revolte-tiktok-security-news
 
 https://arstechnica.com/tech-policy/2020/09/russian-state-hackers-are-targeting-biden-and-trump-campaigns-msft-warns/
+
+https://www.securityweek.com/russian-military-hackers-targeted-credentials-hundreds-organizations-us-uk
