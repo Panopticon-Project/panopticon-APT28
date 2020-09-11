@@ -821,3 +821,5 @@ https://arstechnica.com/tech-policy/2020/09/russian-state-hackers-are-targeting-
 https://www.securityweek.com/russian-military-hackers-targeted-credentials-hundreds-organizations-us-uk
 
 https://www.securityweek.com/russia-linked-spies-deliver-malware-dde-attack
+
+https://www.securityweek.com/tech-firms-target-domains-used-russia-linked-threat-group
