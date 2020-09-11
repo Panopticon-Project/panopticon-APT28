@@ -815,3 +815,5 @@ https://www.wired.com/story/russia-fancy-bear-us-hacking-campaign-government-ene
 https://www.cyberscoop.com/russian-military-intelligence-gru-hacking-drovorub-malware-fbi-nsa/
 
 https://www.wired.com/story/nsa-russian-hacking-revolte-tiktok-security-news
+
+https://arstechnica.com/tech-policy/2020/09/russian-state-hackers-are-targeting-biden-and-trump-campaigns-msft-warns/
