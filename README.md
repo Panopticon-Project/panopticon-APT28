@@ -831,3 +831,5 @@ https://www.securityweek.com/xtunnel-malware-specifically-built-dnc-hack-report
 https://www.wired.co.uk/article/how-russian-hackers-work
 
 https://www.trendmicro.com/vinfo/us/security/news/cyber-attacks/operation-pawn-storm-fast-facts
+
+https://www.welivesecurity.com/wp-content/uploads/2016/10/eset-sednit-part-2.pdf
