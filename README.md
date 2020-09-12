@@ -829,3 +829,5 @@ https://www.bbc.com/news/technology-42056555
 https://www.securityweek.com/xtunnel-malware-specifically-built-dnc-hack-report
 
 https://www.wired.co.uk/article/how-russian-hackers-work
+
+https://www.trendmicro.com/vinfo/us/security/news/cyber-attacks/operation-pawn-storm-fast-facts
