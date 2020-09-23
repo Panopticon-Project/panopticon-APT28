@@ -837,3 +837,5 @@ https://www.welivesecurity.com/wp-content/uploads/2016/10/eset-sednit-part-2.pdf
 https://www.wired.com/story/mueller-indictment-dnc-hack-russia-fancy-bear/
 
 https://www.wired.com/story/russia-fancy-bear-hackers-phishing/
+
+https://quointelligence.eu/2020/09/apt28-zebrocy-malware-campaign-nato-theme/
