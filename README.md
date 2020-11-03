@@ -841,3 +841,5 @@ https://www.wired.com/story/russia-fancy-bear-hackers-phishing/
 https://quointelligence.eu/2020/09/apt28-zebrocy-malware-campaign-nato-theme/
 
 https://securityaffairs.co/wordpress/108635/cyber-warfare-2/apt28-nato-training-docs.html
+
+https://www.securityweek.com/us-cyber-command-shares-more-russian-malware-samples
