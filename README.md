@@ -843,3 +843,5 @@ https://quointelligence.eu/2020/09/apt28-zebrocy-malware-campaign-nato-theme/
 https://securityaffairs.co/wordpress/108635/cyber-warfare-2/apt28-nato-training-docs.html
 
 https://www.securityweek.com/us-cyber-command-shares-more-russian-malware-samples
+
+https://securelist.com/an-overview-of-targeted-attacks-and-apts-on-linux/98440/
