@@ -845,3 +845,5 @@ https://securityaffairs.co/wordpress/108635/cyber-warfare-2/apt28-nato-training-
 https://www.securityweek.com/us-cyber-command-shares-more-russian-malware-samples
 
 https://securelist.com/an-overview-of-targeted-attacks-and-apts-on-linux/98440/
+
+https://www.welivesecurity.com/wp-content/uploads/2020/10/ESET_Threat_Report_Q32020.pdf
