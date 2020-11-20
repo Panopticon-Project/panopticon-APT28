@@ -849,3 +849,5 @@ https://securelist.com/an-overview-of-targeted-attacks-and-apts-on-linux/98440/
 https://www.welivesecurity.com/wp-content/uploads/2020/10/ESET_Threat_Report_Q32020.pdf
 
 https://us-cert.cisa.gov/ncas/analysis-reports/ar20-303b
+
+https://www.securityweek.com/us-charges-russian-intelligence-officers-notpetya-industroyer-attacks
