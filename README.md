@@ -851,3 +851,5 @@ https://www.welivesecurity.com/wp-content/uploads/2020/10/ESET_Threat_Report_Q32
 https://us-cert.cisa.gov/ncas/analysis-reports/ar20-303b
 
 https://www.securityweek.com/us-charges-russian-intelligence-officers-notpetya-industroyer-attacks
+
+https://www.wired.com/story/us-indicts-sandworm-hackers-russia-cyberwar-unit/
