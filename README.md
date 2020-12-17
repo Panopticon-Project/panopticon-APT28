@@ -853,3 +853,5 @@ https://us-cert.cisa.gov/ncas/analysis-reports/ar20-303b
 https://www.securityweek.com/us-charges-russian-intelligence-officers-notpetya-industroyer-attacks
 
 https://www.wired.com/story/us-indicts-sandworm-hackers-russia-cyberwar-unit/
+
+https://www.zdnet.com/article/norway-says-russian-hacking-group-apt28-is-behind-august-2020-parliament-hack/
