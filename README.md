@@ -859,3 +859,5 @@ https://www.zdnet.com/article/norway-says-russian-hacking-group-apt28-is-behind-
 https://www.bleepingcomputer.com/news/security/russian-hackers-hide-zebrocy-malware-in-virtual-disk-images/
 
 https://www.intezer.com/blog/research/russian-apt-uses-covid-19-lures-to-deliver-zebrocy/
+
+https://twitter.com/rik_ferguson/status/1339563273658753024
