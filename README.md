@@ -861,3 +861,5 @@ https://www.bleepingcomputer.com/news/security/russian-hackers-hide-zebrocy-malw
 https://www.intezer.com/blog/research/russian-apt-uses-covid-19-lures-to-deliver-zebrocy/
 
 https://twitter.com/rik_ferguson/status/1339563273658753024
+
+https://threatpost.com/russia-north-korea-attacking-covid-19-vaccine-makers/161205/
