@@ -867,3 +867,5 @@ https://threatpost.com/russia-north-korea-attacking-covid-19-vaccine-makers/1612
 https://www.intezer.com/blog/research/russian-apt-uses-covid-19-lures-to-deliver-zebrocy/
 
 https://www.cyberscoop.com/finland-parliament-targeted-espionage-emails/
+
+https://www.cyberscoop.com/fancy-bear-trend-micro-russia-espionage/
