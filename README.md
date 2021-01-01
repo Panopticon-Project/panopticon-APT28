@@ -875,3 +875,5 @@ https://arstechnica.com/information-technology/2020/10/russias-fancy-bear-hacker
 https://www.cshub.com/attacks/articles/iotw-government-sanctioned-russian-hackers-penetrate-us-federal-agency
 
 https://us-cert.cisa.gov/ncas/current-activity/2020/10/29/cisa-and-cnmf-identify-new-malware-variant-zebrocy
+
+https://www.securityweek.com/us-cyber-command-shares-more-russian-malware-samples
