@@ -873,3 +873,5 @@ https://www.cyberscoop.com/fancy-bear-trend-micro-russia-espionage/
 https://arstechnica.com/information-technology/2020/10/russias-fancy-bear-hackers-likely-penetrated-a-federal-agency/
 
 https://www.cshub.com/attacks/articles/iotw-government-sanctioned-russian-hackers-penetrate-us-federal-agency
+
+https://us-cert.cisa.gov/ncas/current-activity/2020/10/29/cisa-and-cnmf-identify-new-malware-variant-zebrocy
