@@ -879,3 +879,5 @@ https://us-cert.cisa.gov/ncas/current-activity/2020/10/29/cisa-and-cnmf-identify
 https://www.securityweek.com/us-cyber-command-shares-more-russian-malware-samples
 
 https://www.securityweek.com/us-cyber-command-shares-more-russian-malware-samples
+
+https://us-cert.cisa.gov/sites/default/files/publications/AA20-336A-APT_Actors_Targeting_US_ThinkTanks.pdf
