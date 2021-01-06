@@ -881,3 +881,5 @@ https://www.securityweek.com/us-cyber-command-shares-more-russian-malware-sample
 https://www.securityweek.com/us-cyber-command-shares-more-russian-malware-samples
 
 https://us-cert.cisa.gov/sites/default/files/publications/AA20-336A-APT_Actors_Targeting_US_ThinkTanks.pdf
+
+https://securityaffairs.co/wordpress/110155/cyber-warfare-2/us-cyber-command-russia-implants.html
