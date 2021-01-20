@@ -885,3 +885,5 @@ https://us-cert.cisa.gov/sites/default/files/publications/AA20-336A-APT_Actors_T
 https://securityaffairs.co/wordpress/110155/cyber-warfare-2/us-cyber-command-russia-implants.html
 
 https://www.securityweek.com/new-zebrocy-campaign-suggests-russia-continues-attacks-nato
+
+https://www.securityweek.com/hundreds-networks-still-host-devices-infected-vpnfilter-malware
