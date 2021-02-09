@@ -887,3 +887,5 @@ https://securityaffairs.co/wordpress/110155/cyber-warfare-2/us-cyber-command-rus
 https://www.securityweek.com/new-zebrocy-campaign-suggests-russia-continues-attacks-nato
 
 https://www.securityweek.com/hundreds-networks-still-host-devices-infected-vpnfilter-malware
+
+https://www.securityweek.com/drovorub-mystery-malware-nsa-warned-about-cant-be-found
