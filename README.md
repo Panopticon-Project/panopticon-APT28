@@ -889,3 +889,5 @@ https://www.securityweek.com/new-zebrocy-campaign-suggests-russia-continues-atta
 https://www.securityweek.com/hundreds-networks-still-host-devices-infected-vpnfilter-malware
 
 https://www.securityweek.com/drovorub-mystery-malware-nsa-warned-about-cant-be-found
+
+https://www.trendmicro.com/en_us/research/20/l/pawn-storm-lack-of-sophistication-as-a-strategy.html 
