@@ -891,3 +891,5 @@ https://www.securityweek.com/hundreds-networks-still-host-devices-infected-vpnfi
 https://www.securityweek.com/drovorub-mystery-malware-nsa-warned-about-cant-be-found
 
 https://www.trendmicro.com/en_us/research/20/l/pawn-storm-lack-of-sophistication-as-a-strategy.html 
+
+https://twitter.com/InfosecNewsBot/status/1376661973547548673
