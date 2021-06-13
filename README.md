@@ -895,3 +895,5 @@ https://www.trendmicro.com/en_us/research/20/l/pawn-storm-lack-of-sophistication
 https://twitter.com/InfosecNewsBot/status/1376661973547548673
 
 https://labs.sentinelone.com/a-deep-dive-into-zebrocys-dropper-docs/
+
+https://www.securityweek.com/russian-hackers-use-new-skinnyboy-malware-attacks-military-government-orgs
