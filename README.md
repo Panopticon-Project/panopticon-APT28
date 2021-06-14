@@ -897,3 +897,5 @@ https://twitter.com/InfosecNewsBot/status/1376661973547548673
 https://labs.sentinelone.com/a-deep-dive-into-zebrocys-dropper-docs/
 
 https://www.securityweek.com/russian-hackers-use-new-skinnyboy-malware-attacks-military-government-orgs
+
+https://cluster25.io/2021/06/03/a-not-so-fancy-game-apt28-skinnyboy/
