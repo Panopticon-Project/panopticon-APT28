@@ -901,3 +901,5 @@ https://www.securityweek.com/russian-hackers-use-new-skinnyboy-malware-attacks-m
 https://cluster25.io/2021/06/03/a-not-so-fancy-game-apt28-skinnyboy/
 
 https://threatpost.com/kubernetes-brute-force-attacks-russia-apt28/167518/
+
+https://media.defense.gov/2021/Jul/01/2002753896/-1/-1/1/CSA_GRU_GLOBAL_BRUTE_FORCE_CAMPAIGN_UOO158036-21.PDF
