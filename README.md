@@ -909,3 +909,5 @@ https://cybergeeks.tech/skinnyboy-apt28/
 https://www.cyberscoop.com/google-saw-a-surge-in-russian-hacking-attempts-against-gmail-last-month/
 
 https://www.microsoft.com/security/blog/2021/11/10/the-hunt-for-nobelium-the-most-sophisticated-nation-state-attack-in-history/
+
+https://www.mandiant.com/resources/russian-targeting-gov-business
