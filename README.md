@@ -909,3 +909,5 @@ https://cybergeeks.tech/skinnyboy-apt28/
 https://www.cyberscoop.com/google-saw-a-surge-in-russian-hacking-attempts-against-gmail-last-month/
 
 https://marcoramilli.com/2021/12/30/apt28-skinnyboy-cheat-sheet/
+
+https://www.securityweek.com/17-malware-frameworks-target-air-gapped-systems-espionage
