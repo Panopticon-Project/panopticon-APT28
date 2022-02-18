@@ -911,3 +911,5 @@ https://www.cyberscoop.com/google-saw-a-surge-in-russian-hacking-attempts-agains
 https://marcoramilli.com/2021/12/30/apt28-skinnyboy-cheat-sheet/
 
 https://www.securityweek.com/17-malware-frameworks-target-air-gapped-systems-espionage
+
+https://www.securityweek.com/russian-cyberspies-stole-us-defense-data-attacks-contractors
