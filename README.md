@@ -915,3 +915,5 @@ https://www.securityweek.com/17-malware-frameworks-target-air-gapped-systems-esp
 https://www.securityweek.com/russian-cyberspies-stole-us-defense-data-attacks-contractors
 
 https://www.cisa.gov/uscert/ncas/current-activity/2022/02/16/russian-state-sponsored-actors-target-cleared-defense-contractor
+
+https://thehackernews.com/2022/03/google-russian-hackers-target.html
