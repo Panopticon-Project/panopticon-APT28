@@ -917,3 +917,5 @@ https://www.securityweek.com/russian-cyberspies-stole-us-defense-data-attacks-co
 https://www.cisa.gov/uscert/ncas/current-activity/2022/02/16/russian-state-sponsored-actors-target-cleared-defense-contractor
 
 https://thehackernews.com/2022/03/google-russian-hackers-target.html
+
+https://blog.google/threat-analysis-group/update-on-cyber-activity-in-eastern-europe/
