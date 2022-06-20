@@ -919,3 +919,11 @@ https://www.cisa.gov/uscert/ncas/current-activity/2022/02/16/russian-state-spons
 https://thehackernews.com/2022/03/google-russian-hackers-target.html
 
 https://blog.google/threat-analysis-group/update-on-cyber-activity-in-eastern-europe/
+
+https://www.justice.gov/opa/pr/grand-jury-indicts-12-russian-intelligence-officers-hacking-offenses-related-2016-election
+
+https://www.cyber.nj.gov/threat-center/threat-profiles/trojan-variants/x-agent
+
+https://www.fbi.gov/wanted/cyber/nikolay-yuryevich-kozachek
+
+https://www.spiegel.de/netzwelt/hackerangriff-auf-nato-denkfabrik-in-deutschland-wenn-blablabla1234565-mitliest-a-3ac1abcb-4b5f-447f-8030-660784c8e704
