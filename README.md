@@ -927,3 +927,5 @@ https://www.cyber.nj.gov/threat-center/threat-profiles/trojan-variants/x-agent
 https://www.fbi.gov/wanted/cyber/nikolay-yuryevich-kozachek
 
 https://www.spiegel.de/netzwelt/hackerangriff-auf-nato-denkfabrik-in-deutschland-wenn-blablabla1234565-mitliest-a-3ac1abcb-4b5f-447f-8030-660784c8e704
+
+https://www.darkreading.com/attacks-breaches/russia-apt28-launches-nuke-themed-follina-exploit-campaign
