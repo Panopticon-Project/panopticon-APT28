@@ -931,3 +931,5 @@ https://www.spiegel.de/netzwelt/hackerangriff-auf-nato-denkfabrik-in-deutschland
 https://www.darkreading.com/attacks-breaches/russia-apt28-launches-nuke-themed-follina-exploit-campaign
 
 https://therecord.media/arrested-russian-hacker-pavel-sitnikov-looks-to-start-a-new-chapter/
+
+https://www.cyberscoop.com/apt28-fancy-bear-satellite/
